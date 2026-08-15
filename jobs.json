@@ -1,0 +1,30 @@
+[
+  {
+    "title": "Java Backend Developer",
+    "company": "Demo Company",
+    "location": "Mumbai",
+    "source": "Demo",
+    "posted": "2026-08-15T09:00:00Z",
+    "url": "https://www.linkedin.com/jobs/",
+    "tags": [
+      "Java",
+      "Spring Boot",
+      "Microservices"
+    ],
+    "description": "Java Spring Boot backend REST APIs microservices"
+  },
+  {
+    "title": "Spring Boot Engineer",
+    "company": "Demo Remote",
+    "location": "Remote",
+    "source": "Demo",
+    "posted": "2026-08-15T08:00:00Z",
+    "url": "https://remotive.com/remote-jobs",
+    "tags": [
+      "Java",
+      "Spring",
+      "Backend"
+    ],
+    "description": "Java Spring backend engineer REST APIs"
+  }
+]
