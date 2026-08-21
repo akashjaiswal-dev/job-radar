@@ -18,8 +18,10 @@ const CONFIG = {
   pageSize: 12
 };
 
-document.getElementById("footerName").textContent =
-  `${CONFIG.ownerName} · ${CONFIG.ownerTitle}`;
+const footerNameEl = document.getElementById("footerName");
+if (footerNameEl) {
+  footerNameEl.textContent = `${CONFIG.ownerName} · ${CONFIG.ownerTitle}`;
+}
 
 if (window.pdfjsLib) {
   pdfjsLib.GlobalWorkerOptions.workerSrc =
@@ -52,22 +54,31 @@ const $$ = (sel, el = document) => Array.from(el.querySelectorAll(sel));
 const uid = () => Math.random().toString(36).slice(2, 10) + Date.now().toString(36);
 
 function escapeHtml(str = "") {
-  return str.replace(/[&<>"']/g, m => ({
-    "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;"
-  }[m]));
+  if (str === null || str === undefined) return "";
+  return String(str)
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;")
+    .replace(/'/g, "&#039;");
 }
+
 function stripHtml(html = "") {
   const div = document.createElement("div");
   div.innerHTML = html;
   return div.textContent || div.innerText || "";
 }
+
 function debounce(fn, ms) {
   let t;
   return (...args) => { clearTimeout(t); t = setTimeout(() => fn(...args), ms); };
 }
+
 function relativeTime(dateStr) {
+  if (!dateStr) return "recently";
   const d = new Date(dateStr);
-  if (isNaN(d)) return "";
+  if (isNaN(d.getTime())) return String(dateStr);
+
   const diffMs = Date.now() - d.getTime();
   const days = Math.floor(diffMs / 86400000);
   if (days <= 0) {
@@ -80,23 +91,26 @@ function relativeTime(dateStr) {
   const months = Math.floor(days / 30);
   return `${months} mo ago`;
 }
+
 function daysAgo(dateStr) {
   const d = new Date(dateStr);
-  if (isNaN(d)) return 9999;
+  if (isNaN(d.getTime())) return 9999;
   return Math.floor((Date.now() - d.getTime()) / 86400000);
 }
+
 function fileSizeLabel(bytes) {
   if (bytes < 1024) return bytes + " B";
   if (bytes < 1024 * 1024) return (bytes / 1024).toFixed(1) + " KB";
   return (bytes / (1024 * 1024)).toFixed(1) + " MB";
 }
+
 function countOccurrences(haystack, needle) {
   if (!needle) return 0;
   return haystack.split(needle).length - 1;
 }
 
 /* ---------- State ---------- */
-let resumes = [];        // {id, filename, type, size, uploadedAt, text, keywords}
+let resumes = [];         // {id, filename, type, size, uploadedAt, text, keywords}
 let activeResumeId = null;
 let allJobs = [];         // normalized + scored
 let visibleCount = CONFIG.pageSize;
@@ -104,12 +118,6 @@ let lastScanAt = null;
 let isScanning = false;
 let companies = [];       // {id, name, slug, platform}
 
-// A small starter set so the radar isn't empty on first load — fintech +
-// insurtech across India, US, and Europe, chosen for 3–6 yr Java +
-// Spring Boot backend profiles specifically. All nine are confirmed
-// Greenhouse/Lever boards with real, current backend postings — mostly
-// underrated/less-competitive than the big unicorn names, on purpose.
-// Swap for your own targets any time via the Companies form below.
 const DEFAULT_COMPANIES = [
   { name: "Razorpay", slug: "razorpaysoftwareprivatelimited", platform: "greenhouse" },
   { name: "PayPay India", slug: "pay2dc", platform: "greenhouse" },
@@ -133,13 +141,16 @@ function loadState() {
     activeResumeId = resumes[0]?.id || null;
   }
 }
+
 function saveResumes() {
   localStorage.setItem(CONFIG.storageKey, JSON.stringify(resumes));
 }
+
 function saveActive() {
   if (activeResumeId) localStorage.setItem(CONFIG.activeKey, activeResumeId);
   else localStorage.removeItem(CONFIG.activeKey);
 }
+
 function loadCompanies() {
   try {
     const raw = localStorage.getItem(CONFIG.companiesKey);
@@ -147,9 +158,11 @@ function loadCompanies() {
   } catch { companies = DEFAULT_COMPANIES.map(c => ({ id: uid(), ...c })); }
   saveCompanies();
 }
+
 function saveCompanies() {
   localStorage.setItem(CONFIG.companiesKey, JSON.stringify(companies));
 }
+
 function saveJobsCache() {
   try {
     localStorage.setItem(CONFIG.jobsCacheKey, JSON.stringify({
@@ -159,14 +172,14 @@ function saveJobsCache() {
     }));
   } catch { /* storage full or unavailable — cache is best-effort */ }
 }
+
 function loadJobsCache() {
   try {
     const raw = localStorage.getItem(CONFIG.jobsCacheKey);
     return raw ? JSON.parse(raw) : null;
   } catch { return null; }
 }
-// Re-scores cached jobs against whichever résumé is active right now —
-// no network call, so switching active résumé feels instant.
+
 function recomputeMatches() {
   const active = resumes.find(r => r.id === activeResumeId);
   const keywords = active ? active.keywords : [];
@@ -187,10 +200,12 @@ async function parsePdf(arrayBuffer) {
   }
   return text.trim();
 }
+
 async function parseDocx(arrayBuffer) {
   const result = await mammoth.extractRawText({ arrayBuffer });
   return (result.value || "").trim();
 }
+
 function parseTxt(file) {
   return new Promise((resolve, reject) => {
     const reader = new FileReader();
@@ -199,6 +214,7 @@ function parseTxt(file) {
     reader.readAsText(file);
   });
 }
+
 function readAsArrayBuffer(file) {
   return new Promise((resolve, reject) => {
     const reader = new FileReader();
@@ -218,32 +234,32 @@ function extractKeywords(text) {
   return Array.from(new Set(found)).slice(0, 25);
 }
 
-/* ---------- Upload flow ---------- */
-const dropzone = $("#dropzone");
-const fileInput = $("#fileInput");
-const progressWrap = $("#uploadProgressWrap");
-const progressBar = $("#uploadProgressBar");
-const progressStage = $("#uploadStage");
-const progressFileName = $("#uploadFileName");
+/* ---------- Upload Flow Setup ---------- */
+function initUpload() {
+  const dropzone = $("#dropzone");
+  const fileInput = $("#fileInput");
 
-dropzone.addEventListener("click", () => fileInput.click());
-dropzone.addEventListener("keydown", e => {
-  if (e.key === "Enter" || e.key === " ") { e.preventDefault(); fileInput.click(); }
-});
-["dragover", "dragenter"].forEach(evt =>
-  dropzone.addEventListener(evt, e => { e.preventDefault(); dropzone.classList.add("dragover"); })
-);
-["dragleave", "drop"].forEach(evt =>
-  dropzone.addEventListener(evt, e => { e.preventDefault(); dropzone.classList.remove("dragover"); })
-);
-dropzone.addEventListener("drop", e => {
-  const files = Array.from(e.dataTransfer.files || []);
-  handleFiles(files);
-});
-fileInput.addEventListener("change", e => {
-  handleFiles(Array.from(e.target.files || []));
-  fileInput.value = "";
-});
+  if (!dropzone || !fileInput) return;
+
+  dropzone.addEventListener("click", () => fileInput.click());
+  dropzone.addEventListener("keydown", e => {
+    if (e.key === "Enter" || e.key === " ") { e.preventDefault(); fileInput.click(); }
+  });
+  ["dragover", "dragenter"].forEach(evt =>
+    dropzone.addEventListener(evt, e => { e.preventDefault(); dropzone.classList.add("dragover"); })
+  );
+  ["dragleave", "drop"].forEach(evt =>
+    dropzone.addEventListener(evt, e => { e.preventDefault(); dropzone.classList.remove("dragover"); })
+  );
+  dropzone.addEventListener("drop", e => {
+    const files = Array.from(e.dataTransfer.files || []);
+    handleFiles(files);
+  });
+  fileInput.addEventListener("change", e => {
+    handleFiles(Array.from(e.target.files || []));
+    fileInput.value = "";
+  });
+}
 
 async function handleFiles(files) {
   for (const file of files) {
@@ -252,20 +268,27 @@ async function handleFiles(files) {
 }
 
 function setProgress(pct, stage, isError = false) {
-  progressBar.style.width = pct + "%";
-  progressBar.classList.toggle("error", isError);
-  progressStage.textContent = stage;
+  const progressBar = $("#uploadProgressBar");
+  const progressStage = $("#uploadStage");
+  if (progressBar) {
+    progressBar.style.width = pct + "%";
+    progressBar.classList.toggle("error", isError);
+  }
+  if (progressStage) progressStage.textContent = stage;
 }
 
 async function uploadOneFile(file) {
+  const progressWrap = $("#uploadProgressWrap");
+  const progressFileName = $("#uploadFileName");
+
   const ext = file.name.split(".").pop().toLowerCase();
   if (!["pdf", "docx", "txt"].includes(ext)) {
     alert(`"${file.name}" isn't a supported format. Use PDF, DOCX or TXT.`);
     return;
   }
 
-  progressWrap.hidden = false;
-  progressFileName.textContent = file.name;
+  if (progressWrap) progressWrap.hidden = false;
+  if (progressFileName) progressFileName.textContent = file.name;
   setProgress(8, "Reading file…");
 
   try {
@@ -291,7 +314,7 @@ async function uploadOneFile(file) {
 
     setProgress(75, "Analyzing skills…");
     const keywords = extractKeywords(text);
-    await new Promise(r => setTimeout(r, 250)); // let the UI show the stage briefly
+    await new Promise(r => setTimeout(r, 250));
 
     const resume = {
       id: uid(),
@@ -308,7 +331,7 @@ async function uploadOneFile(file) {
     saveActive();
 
     setProgress(100, "Done ✓");
-    setTimeout(() => { progressWrap.hidden = true; setProgress(0, ""); }, 900);
+    setTimeout(() => { if (progressWrap) progressWrap.hidden = true; setProgress(0, ""); }, 900);
 
     renderResumes();
     updateStats();
@@ -316,25 +339,28 @@ async function uploadOneFile(file) {
   } catch (err) {
     console.error(err);
     setProgress(100, "Failed — " + err.message, true);
-    setTimeout(() => { progressWrap.hidden = true; setProgress(0, ""); }, 2600);
+    setTimeout(() => { if (progressWrap) progressWrap.hidden = true; setProgress(0, ""); }, 2600);
   }
 }
 
-/* ---------- Resume list rendering ---------- */
+/* ---------- Resume List Rendering ---------- */
 function renderResumes() {
   const list = $("#resumeList");
   const empty = $("#resumeEmpty");
   const actions = $("#resumeActions");
+  const statResume = $("#statResume");
+
+  if (!list) return;
 
   if (!resumes.length) {
     list.innerHTML = "";
-    empty.hidden = false;
-    actions.hidden = true;
-    $("#statResume").textContent = "No résumé";
+    if (empty) empty.hidden = false;
+    if (actions) actions.hidden = true;
+    if (statResume) statResume.textContent = "No résumé";
     return;
   }
-  empty.hidden = true;
-  actions.hidden = false;
+  if (empty) empty.hidden = true;
+  if (actions) actions.hidden = false;
 
   list.innerHTML = resumes.map(r => `
     <div class="resume-card ${r.id === activeResumeId ? "active" : ""}" data-id="${r.id}">
@@ -360,26 +386,10 @@ function renderResumes() {
   `).join("");
 
   const active = resumes.find(r => r.id === activeResumeId);
-  $("#statResume").textContent = active ? active.filename.replace(/\.(pdf|docx|txt)$/i, "") : "No résumé";
-}
-
-$("#resumeList").addEventListener("click", e => {
-  const btn = e.target.closest("[data-action]");
-  if (!btn) return;
-  const { action, id } = btn.dataset;
-  if (action === "activate") {
-    activeResumeId = id;
-    saveActive();
-    renderResumes();
-    recomputeMatches();
-    updateStats();
-    renderJobs();
-  } else if (action === "preview") {
-    openPreview(id);
-  } else if (action === "delete") {
-    deleteResume(id);
+  if (statResume) {
+    statResume.textContent = active ? active.filename.replace(/\.(pdf|docx|txt)$/i, "") : "No résumé";
   }
-});
+}
 
 function deleteResume(id) {
   const r = resumes.find(x => x.id === id);
@@ -395,58 +405,65 @@ function deleteResume(id) {
   renderJobs();
 }
 
-$("#removeAllBtn").addEventListener("click", () => {
-  if (!resumes.length) return;
-  if (!confirm("Remove all résumés? This can't be undone.")) return;
-  resumes = [];
-  activeResumeId = null;
-  saveResumes();
-  saveActive();
-  renderResumes();
-  recomputeMatches();
-  updateStats();
-  renderJobs();
-});
-
-/* ---------- Preview modal ---------- */
+/* ---------- Preview Modal & General Modal Control ---------- */
 function openPreview(id) {
   const r = resumes.find(x => x.id === id);
   if (!r) return;
-  $("#previewTitle").textContent = r.filename;
-  $("#previewSkills").innerHTML = r.keywords.length
-    ? r.keywords.map(k => `<span class="skill-chip">${escapeHtml(k)}</span>`).join("")
-    : `<span class="skill-chip">No recognized skills — matching will use general text overlap</span>`;
-  $("#previewText").textContent = r.text.slice(0, 6000) + (r.text.length > 6000 ? "\n\n… (truncated preview)" : "");
+  const pTitle = $("#previewTitle");
+  const pSkills = $("#previewSkills");
+  const pText = $("#previewText");
+
+  if (pTitle) pTitle.textContent = r.filename;
+  if (pSkills) {
+    pSkills.innerHTML = r.keywords.length
+      ? r.keywords.map(k => `<span class="skill-chip">${escapeHtml(k)}</span>`).join("")
+      : `<span class="skill-chip">No recognized skills — matching will use general text overlap</span>`;
+  }
+  if (pText) {
+    pText.textContent = r.text.slice(0, 6000) + (r.text.length > 6000 ? "\n\n… (truncated preview)" : "");
+  }
   openModal("#previewModal");
 }
 
-function openModal(sel) { $(sel).hidden = false; document.body.style.overflow = "hidden"; }
-function closeModal(sel) { $(sel).hidden = true; document.body.style.overflow = ""; }
-$$("[data-close]").forEach(el => el.addEventListener("click", e => {
-  closeModal(e.target.closest(".modal").id ? "#" + e.target.closest(".modal").id : null);
-}));
-$$(".modal").forEach(m => m.addEventListener("click", e => {
-  if (e.target === m || e.target.classList.contains("modal-backdrop")) closeModal("#" + m.id);
-}));
-document.addEventListener("keydown", e => {
-  if (e.key === "Escape") $$(".modal:not([hidden])").forEach(m => closeModal("#" + m.id));
-});
+function openModal(sel) {
+  const el = typeof sel === "string" ? $(sel) : sel;
+  if (el) {
+    el.hidden = false;
+    el.classList.add("active");
+    el.setAttribute("aria-hidden", "false");
+    document.body.style.overflow = "hidden";
+  }
+}
 
-/* ---------- Company tracker UI ---------- */
+function closeModal(sel) {
+  const el = typeof sel === "string" ? $(sel) : sel;
+  if (el) {
+    el.hidden = true;
+    el.classList.remove("active");
+    el.setAttribute("aria-hidden", "true");
+    document.body.style.overflow = "";
+  }
+}
+
+/* ---------- Company Tracker UI ---------- */
 const COMPANY_PLATFORM_HINTS = {
   greenhouse: `Find the slug in the company's careers URL — <span class="mono">boards.greenhouse.io/<strong>stripe</strong></span>.`,
   lever: `Find the slug in the company's careers URL — <span class="mono">jobs.lever.co/<strong>netflix</strong></span>.`,
   workday: `Paste the <strong>full careers URL</strong> from their site — e.g. <span class="mono">https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite</span>. Best-effort: Workday isn't built for cross-site calls, so some tenants may not load.`
 };
-$("#companyPlatform").addEventListener("change", updateCompanyFormHint);
+
 function updateCompanyFormHint() {
-  const platform = $("#companyPlatform").value;
-  $("#companyHint").innerHTML = COMPANY_PLATFORM_HINTS[platform];
-  $("#companySlug").placeholder = platform === "workday"
+  const platformEl = $("#companyPlatform");
+  const hintEl = $("#companyHint");
+  const slugEl = $("#companySlug");
+  if (!platformEl || !hintEl || !slugEl) return;
+
+  const platform = platformEl.value;
+  hintEl.innerHTML = COMPANY_PLATFORM_HINTS[platform] || "";
+  slugEl.placeholder = platform === "workday"
     ? "Full careers URL, e.g. https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite"
     : "Board slug (e.g. stripe)";
 }
-updateCompanyFormHint();
 
 function parseWorkdayUrl(input) {
   const m = input.trim().match(/^https?:\/\/([a-z0-9-]+)\.(wd\d+)\.myworkdayjobs\.com\/([^\s?#]+)/i);
@@ -462,6 +479,8 @@ function parseWorkdayUrl(input) {
 
 function renderCompanies() {
   const list = $("#companyList");
+  if (!list) return;
+
   if (!companies.length) {
     list.innerHTML = `<p style="color:var(--text-faint);font-size:13px;margin:6px 0 0;">No companies tracked yet — add one above.</p>`;
     return;
@@ -475,89 +494,6 @@ function renderCompanies() {
   `).join("");
 }
 
-$("#companyForm").addEventListener("submit", e => {
-  e.preventDefault();
-  const name = $("#companyName").value.trim();
-  const platform = $("#companyPlatform").value;
-  const rawSlug = $("#companySlug").value.trim();
-  if (!name || !rawSlug) return;
-
-  let entry = { id: uid(), name, platform };
-  if (platform === "workday") {
-    const parsed = parseWorkdayUrl(rawSlug);
-    if (!parsed) {
-      alert("That doesn't look like a Workday careers URL. It should look like:\nhttps://tenant.wd5.myworkdayjobs.com/SiteName");
-      return;
-    }
-    entry = { ...entry, ...parsed, slug: `${parsed.tenant}/${parsed.site}` };
-  } else {
-    const slug = rawSlug.toLowerCase().replace(/\s+/g, "-");
-    entry.slug = slug;
-  }
-
-  if (companies.some(c => c.slug === entry.slug && c.platform === platform)) {
-    alert("That company board is already being tracked.");
-    return;
-  }
-  companies.push(entry);
-  saveCompanies();
-  renderCompanies();
-  e.target.reset();
-  updateCompanyFormHint();
-  scanJobs();
-});
-
-$("#companyList").addEventListener("click", e => {
-  const btn = e.target.closest("[data-remove-company]");
-  if (!btn) return;
-  companies = companies.filter(c => c.id !== btn.dataset.removeCompany);
-  saveCompanies();
-  renderCompanies();
-  scanJobs();
-});
-
-$("#bulkAddBtn").addEventListener("click", () => {
-  const raw = $("#bulkCompanyInput").value.trim();
-  const resultEl = $("#bulkAddResult");
-  if (!raw) return;
-
-  const lines = raw.split("\n").map(l => l.trim()).filter(Boolean);
-  let added = 0, skipped = 0, errors = [];
-
-  lines.forEach(line => {
-    const parts = line.split(",").map(p => p.trim());
-    if (parts.length < 3) { skipped++; errors.push(`"${line}" — needs 3 fields`); return; }
-    const [name, platformRaw, rest] = parts;
-    const platform = platformRaw.toLowerCase();
-    if (!["greenhouse", "lever", "workday"].includes(platform)) {
-      skipped++; errors.push(`"${name}" — unknown platform "${platformRaw}"`); return;
-    }
-
-    let entry = { id: uid(), name, platform };
-    if (platform === "workday") {
-      const parsed = parseWorkdayUrl(rest);
-      if (!parsed) { skipped++; errors.push(`"${name}" — invalid Workday URL`); return; }
-      entry = { ...entry, ...parsed, slug: `${parsed.tenant}/${parsed.site}` };
-    } else {
-      entry.slug = rest.toLowerCase().replace(/\s+/g, "-");
-    }
-
-    if (companies.some(c => c.slug === entry.slug && c.platform === platform)) {
-      skipped++; errors.push(`"${name}" — already tracked`); return;
-    }
-    companies.push(entry);
-    added++;
-  });
-
-  saveCompanies();
-  renderCompanies();
-  if (added) scanJobs();
-
-  resultEl.textContent = `Added ${added}${skipped ? `, skipped ${skipped}` : ""}.` +
-    (errors.length ? " " + errors.slice(0, 4).join(" · ") : "");
-  if (added) $("#bulkCompanyInput").value = "";
-});
-
 /* ============================================================
    JOB FETCHING
    ============================================================ */
@@ -567,7 +503,6 @@ async function fetchJSON(url) {
     if (!r.ok) throw new Error("status " + r.status);
     return await r.json();
   } catch (err) {
-    // CORS / network fallback via public read-only proxy
     const proxied = "https://api.allorigins.win/raw?url=" + encodeURIComponent(url);
     const r2 = await fetch(proxied);
     if (!r2.ok) throw err;
@@ -640,7 +575,7 @@ async function fetchGreenhouse(company) {
         }));
       }
     } catch (err) {
-      lastErr = err; // try the next data-residency domain (e.g. EU-hosted boards)
+      lastErr = err;
     }
   }
   if (lastErr) throw lastErr;
@@ -664,12 +599,6 @@ async function fetchLever(company) {
   }));
 }
 
-async function fetchCompanyJobs(company) {
-  if (company.platform === "lever") return fetchLever(company);
-  if (company.platform === "workday") return fetchWorkday(company);
-  return fetchGreenhouse(company);
-}
-
 async function fetchJSONPost(url, body) {
   try {
     const r = await fetch(url, {
@@ -680,8 +609,6 @@ async function fetchJSONPost(url, body) {
     if (!r.ok) throw new Error("status " + r.status);
     return await r.json();
   } catch (err) {
-    // Workday's endpoint has no CORS headers for third-party origins,
-    // so a browser-to-browser POST proxy is needed most of the time.
     const proxied = "https://corsproxy.io/?url=" + encodeURIComponent(url);
     const r2 = await fetch(proxied, {
       method: "POST",
@@ -702,14 +629,14 @@ function parseWorkdayPostedOn(str) {
   if (m) return new Date(Date.now() - parseInt(m[1], 10) * 86400000).toISOString();
   m = s.match(/(\d+)\+?\s*month/);
   if (m) return new Date(Date.now() - parseInt(m[1], 10) * 30 * 86400000).toISOString();
-  return new Date().toISOString(); // unrecognized format — assume recent rather than dropping it
+  return new Date().toISOString();
 }
 
 async function fetchWorkday(company) {
   const apiUrl = `https://${company.tenant}.${company.dc}.myworkdayjobs.com/wday/cxs/${company.tenant}/${company.site}/jobs`;
   let offset = 0;
   const limit = 20;
-  const maxPages = 3; // up to 60 postings per tenant, enough for a personal radar
+  const maxPages = 3;
   let all = [];
   for (let page = 0; page < maxPages; page++) {
     const data = await fetchJSONPost(apiUrl, { appliedFacets: {}, limit, offset, searchText: "" });
@@ -732,6 +659,12 @@ async function fetchWorkday(company) {
   }));
 }
 
+async function fetchCompanyJobs(company) {
+  if (company.platform === "lever") return fetchLever(company);
+  if (company.platform === "workday") return fetchWorkday(company);
+  return fetchGreenhouse(company);
+}
+
 async function fetchPrebuiltWorkdayJobs() {
   try {
     const res = await fetch("jobs-workday.json", { cache: "no-store" });
@@ -739,13 +672,13 @@ async function fetchPrebuiltWorkdayJobs() {
     const data = await res.json();
     return data.jobs || [];
   } catch {
-    return []; // file may not exist yet if the Action hasn't run — fail quietly
+    return [];
   }
 }
 
 function scoreJob(job, resumeKeywords) {
   if (!resumeKeywords || !resumeKeywords.length) return null;
-  const haystack = (job.title + " " + job.tags.join(" ") + " " + job.description).toLowerCase();
+  const haystack = (job.title + " " + job.tags.join(" ") + " " + (job.description || "")).toLowerCase();
   let hits = 0;
   resumeKeywords.forEach(k => { if (haystack.includes(k)) hits++; });
   return Math.round((hits / resumeKeywords.length) * 100);
@@ -762,18 +695,21 @@ function dedupe(jobs) {
 }
 
 async function scanJobs() {
-  if (isScanning) return; // ignore extra clicks/triggers while a scan is already running
+  if (isScanning) return;
   isScanning = true;
   const refreshBtn = $("#refreshBtn");
-  const refreshLabel = refreshBtn.innerHTML;
-  refreshBtn.disabled = true;
-  refreshBtn.innerHTML = `<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12a9 9 0 1 1-2.6-6.4M21 3v6h-6"/></svg> Scanning…`;
+  const refreshLabel = refreshBtn ? refreshBtn.innerHTML : "";
+  if (refreshBtn) {
+    refreshBtn.disabled = true;
+    refreshBtn.innerHTML = `<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12a9 9 0 1 1-2.6-6.4M21 3v6h-6"/></svg> Scanning…`;
+  }
 
   const statusEl = $("#jobsStatus");
   const listEl = $("#jobsList");
-  statusEl.textContent = "Scanning live feeds…";
-  listEl.innerHTML = Array.from({ length: 4 }).map(() => `<div class="skeleton"></div>`).join("");
-  $("#jobsEmpty").hidden = true;
+  if (statusEl) statusEl.textContent = "Scanning live feeds…";
+  if (listEl) listEl.innerHTML = Array.from({ length: 4 }).map(() => `<div class="skeleton"></div>`).join("");
+  const jobsEmpty = $("#jobsEmpty");
+  if (jobsEmpty) jobsEmpty.hidden = true;
 
   try {
     const companyFetches = companies.map(c =>
@@ -808,12 +744,14 @@ async function scanJobs() {
     const companyNote = companies.length
       ? ` · ${companiesLoaded}/${companies.length} tracked companies responded`
       : "";
-    if (aggregatorsDown) {
-      statusEl.textContent = `Aggregator feeds were unreachable${companyNote ? companyNote : ""} — check your connection and rescan.`;
-    } else if (remotive.status === "rejected" || arbeitnow.status === "rejected") {
-      statusEl.textContent = `Loaded ${jobs.length} active postings (one aggregator was unreachable)${companyNote}.`;
-    } else {
-      statusEl.textContent = `Loaded ${jobs.length} active postings from Remotive, Arbeitnow${companyNote}.`;
+    if (statusEl) {
+      if (aggregatorsDown) {
+        statusEl.textContent = `Aggregator feeds were unreachable${companyNote ? companyNote : ""} — check your connection and rescan.`;
+      } else if (remotive.status === "rejected" || arbeitnow.status === "rejected") {
+        statusEl.textContent = `Loaded ${jobs.length} active postings (one aggregator was unreachable)${companyNote}.`;
+      } else {
+        statusEl.textContent = `Loaded ${jobs.length} active postings from Remotive, Arbeitnow${companyNote}.`;
+      }
     }
 
     populateLocationFilter();
@@ -822,154 +760,479 @@ async function scanJobs() {
     saveJobsCache();
   } catch (err) {
     console.error(err);
-    statusEl.textContent = "Something went wrong scanning job feeds. Try Rescan.";
-    listEl.innerHTML = "";
-    $("#jobsEmpty").hidden = false;
+    if (statusEl) statusEl.textContent = "Something went wrong scanning job feeds. Try Rescan.";
+    if (listEl) listEl.innerHTML = "";
+    if (jobsEmpty) jobsEmpty.hidden = false;
   } finally {
     isScanning = false;
-    refreshBtn.disabled = false;
-    refreshBtn.innerHTML = refreshLabel;
+    if (refreshBtn) {
+      refreshBtn.disabled = false;
+      refreshBtn.innerHTML = refreshLabel;
+    }
   }
 }
 
-/* ---------- Filtering / sorting / rendering ---------- */
+/* ---------- Filtering / Sorting / Rendering ---------- */
 function populateLocationFilter() {
   const sel = $("#locationFilter");
+  if (!sel) return;
   const current = sel.value;
-  const locs = new Set();
-  allJobs.forEach(j => {
-    const loc = (j.location || "").split(",")[0].trim();
-    if (loc) locs.add(loc);
-  });
-  const sorted = Array.from(locs).sort((a, b) => a.localeCompare(b));
-  sel.innerHTML = `<option value="">All locations</option>` +
-    sorted.map(l => `<option value="${escapeHtml(l)}">${escapeHtml(l)}</option>`).join("");
-  if (sorted.includes(current)) sel.value = current;
+  const locs = Array.from(new Set(allJobs.map(j => j.location).filter(Boolean))).sort();
+  sel.innerHTML = `<option value="">All Locations</option>` +
+    locs.map(l => `<option value="${escapeHtml(l)}">${escapeHtml(l)}</option>`).join("");
+  sel.value = current;
 }
 
-function getFilteredSortedJobs() {
-  const q = $("#searchBox").value.trim().toLowerCase();
-  const loc = $("#locationFilter").value;
-  const sortBy = $("#sortSelect").value;
-  const strongOnly = $("#strongOnly").checked;
+function getFilteredJobs() {
+  const search = ($("#searchInput")?.value || "").toLowerCase().trim();
+  const source = $("#sourceFilter")?.value || "";
+  const location = $("#locationFilter")?.value || "";
+  const matchOnly = $("#matchOnlyToggle")?.checked || false;
+  const sortBy = $("#sortBySelect")?.value || "match";
 
-  let list = allJobs.filter(j => {
-    if (q && !(j.title.toLowerCase().includes(q) || j.company.toLowerCase().includes(q))) return false;
-    if (loc && !(j.location || "").toLowerCase().includes(loc.toLowerCase())) return false;
-    if (strongOnly && (j.match === null || j.match < CONFIG.strongMatchThreshold)) return false;
-    return true;
-  });
-
-  list.sort((a, b) => {
-    if (sortBy === "match") {
-      const ma = a.match ?? -1, mb = b.match ?? -1;
-      if (mb !== ma) return mb - ma;
+  return allJobs.filter(j => {
+    if (search) {
+      const haystack = (j.title + " " + j.company + " " + j.location + " " + j.tags.join(" ")).toLowerCase();
+      if (!haystack.includes(search)) return false;
     }
-    return new Date(b.date) - new Date(a.date);
+    if (source && !j.source.toLowerCase().includes(source.toLowerCase())) return false;
+    if (location && j.location !== location) return false;
+    if (matchOnly && (j.match === null || j.match < CONFIG.strongMatchThreshold)) return false;
+    return true;
+  }).sort((a, b) => {
+    if (sortBy === "date") return new Date(b.date || 0) - new Date(a.date || 0);
+    if (sortBy === "company") return a.company.localeCompare(b.company);
+    return (b.match || 0) - (a.match || 0);
   });
-
-  return list;
 }
 
 function renderJobs() {
-  const filtered = getFilteredSortedJobs();
-  const listEl = $("#jobsList");
-  const emptyEl = $("#jobsEmpty");
-  const loadMoreWrap = $("#loadMoreWrap");
+  const list = $("#jobsList");
+  const empty = $("#jobsEmpty");
+  const loadMoreBtn = $("#loadMoreBtn");
+  if (!list) return;
 
+  const filtered = getFilteredJobs();
   if (!filtered.length) {
-    listEl.innerHTML = "";
-    emptyEl.hidden = false;
-    loadMoreWrap.hidden = true;
+    list.innerHTML = "";
+    if (empty) empty.hidden = false;
+    if (loadMoreBtn) loadMoreBtn.hidden = true;
     return;
   }
-  emptyEl.hidden = true;
 
-  const slice = filtered.slice(0, visibleCount);
-  listEl.innerHTML = slice.map(jobCardHtml).join("");
-  loadMoreWrap.hidden = filtered.length <= visibleCount;
+  if (empty) empty.hidden = true;
+  const visible = filtered.slice(0, visibleCount);
+  list.innerHTML = visible.map(j => jobCardHtml(j)).join("");
+
+  if (loadMoreBtn) {
+    loadMoreBtn.hidden = visibleCount >= filtered.length;
+  }
 }
+
+function updateStats() {
+  const statTotal = $("#statTotal");
+  const statMatched = $("#statMatched");
+  const statCompanies = $("#statCompanies");
+
+  if (statTotal) statTotal.textContent = allJobs.length;
+  if (statMatched) {
+    const strongCount = allJobs.filter(j => j.match !== null && j.match >= CONFIG.strongMatchThreshold).length;
+    statMatched.textContent = strongCount;
+  }
+  if (statCompanies) statCompanies.textContent = companies.length;
+}
+
+/* ---------- JOB CARD & MODAL IMPLEMENTATION ---------- */
 
 function jobCardHtml(j) {
   const hasMatch = j.match !== null && j.match !== undefined;
   const gaugeClass = hasMatch ? "" : "no-match";
-  const gaugeLabel = hasMatch ? j.match + "%" : "—";
+  const gaugeLabel = hasMatch ? `${j.match}%` : "—";
+
+  const safeId = String(j.id || "")
+    .replace(/\\/g, "\\\\")
+    .replace(/'/g, "\\'");
+
+  const formattedDate = typeof relativeTime === "function" ? relativeTime(j.date) : (j.date || "");
+
   return `
-    <article class="job-card" data-id="${j.id}">
+    <article class="job-card" data-id="${escapeHtml(String(j.id || ""))}">
+
       <div class="match-gauge ${gaugeClass}" style="--p:${hasMatch ? j.match : 0}">
         <span>${gaugeLabel}</span>
       </div>
+
       <div class="job-main">
+
         <div class="job-title-row">
-          <a class="job-title" href="#" data-open-job="${j.id}">${escapeHtml(j.title)}</a>
-          <span class="job-source-tag">${j.source}</span>
+
+          <button
+            type="button"
+            class="job-title job-title-button"
+            data-open-job="${escapeHtml(String(j.id || ""))}"
+            onclick="window.openJobModal('${safeId}'); return false;"
+          >
+            ${escapeHtml(j.title || "Untitled job")}
+          </button>
+
+          <span class="job-source-tag">
+            ${escapeHtml(j.source || "Job source")}
+          </span>
+
         </div>
-        <div class="job-company">${escapeHtml(j.company)} · ${escapeHtml(j.location)}</div>
-        ${j.tags.length ? `<div class="job-tags">${j.tags.map(t => `<span class="job-tag">${escapeHtml(t)}</span>`).join("")}</div>` : ""}
+
+        <div class="job-company">
+          ${escapeHtml(j.company || "Company not specified")}
+          ·
+          ${escapeHtml(j.location || "Location not specified")}
+        </div>
+
+        ${
+          j.tags && j.tags.length
+            ? `
+              <div class="job-tags">
+                ${j.tags.map(t =>
+                  `<span class="job-tag">${escapeHtml(String(t))}</span>`
+                ).join("")}
+              </div>
+            `
+            : ""
+        }
+
       </div>
+
       <div class="job-side">
-        <span class="job-date">${relativeTime(j.date)}</span>
+
+        <span class="job-date">
+          ${escapeHtml(formattedDate)}
+        </span>
+
         <div class="job-actions">
-          <a class="btn btn-primary btn-sm" href="${j.url}" target="_blank" rel="noopener">Apply ↗</a>
+
+          ${
+            j.url
+              ? `
+                <a
+                  class="btn btn-primary btn-sm"
+                  href="${escapeHtml(j.url)}"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  onclick="event.stopPropagation();"
+                >
+                  Apply ↗
+                </a>
+              `
+              : `
+                <button
+                  class="btn btn-primary btn-sm"
+                  disabled
+                >
+                  No link
+                </button>
+              `
+          }
+
         </div>
+
       </div>
+
     </article>
   `;
 }
 
-$("#jobsList").addEventListener("click", e => {
-  const link = e.target.closest("[data-open-job]");
-  if (!link) return;
-  e.preventDefault();
-  openJobModal(link.dataset.openJob);
-});
+/* ---------- Job Detail Modal ---------- */
 
-function openJobModal(id) {
-  const j = allJobs.find(x => x.id === id);
-  if (!j) return;
-  $("#jobModalTitle").textContent = j.title;
-  $("#jobModalMeta").innerHTML =
-    `${escapeHtml(j.company)} · ${escapeHtml(j.location)} · ${j.source} · posted ${relativeTime(j.date)}` +
-    (j.match !== null ? ` · <strong style="color:var(--amber)">${j.match}% match</strong>` : "");
-  $("#jobModalDesc").textContent = j.description || "No description provided.";
-  $("#jobModalApply").href = j.url;
-  openModal("#jobModal");
-}
+window.openJobModal = function(id) {
+  const jobId = String(id);
 
-/* ---------- Stats ---------- */
-function updateStats() {
-  $("#statJobs").textContent = allJobs.length || "0";
-  $("#statStrong").textContent = allJobs.filter(j => j.match !== null && j.match >= CONFIG.strongMatchThreshold).length;
-  $("#statUpdated").textContent = lastScanAt ? relativeTime(lastScanAt.toISOString()) : "—";
-}
+  const job = (typeof allJobs !== "undefined" && Array.isArray(allJobs)) 
+    ? allJobs.find(j => String(j.id) === jobId) 
+    : null;
 
-/* ---------- Filter bar events ---------- */
-$("#searchBox").addEventListener("input", debounce(() => { visibleCount = CONFIG.pageSize; renderJobs(); }, 200));
-$("#locationFilter").addEventListener("change", () => { visibleCount = CONFIG.pageSize; renderJobs(); });
-$("#sortSelect").addEventListener("change", () => { visibleCount = CONFIG.pageSize; renderJobs(); });
-$("#strongOnly").addEventListener("change", () => { visibleCount = CONFIG.pageSize; renderJobs(); });
-$("#loadMoreBtn").addEventListener("click", () => { visibleCount += CONFIG.pageSize; renderJobs(); });
-$("#refreshBtn").addEventListener("click", scanJobs);
+  if (!job) {
+    console.error("Job not found:", jobId);
+    alert("This job could not be loaded. Please click Rescan.");
+    return;
+  }
 
-/* ---------- Init ---------- */
-(function init() {
+  const getEl = selector => typeof $ === "function" ? $(selector) : document.querySelector(selector);
+
+  const titleEl = getEl("#jobModalTitle");
+  const metaEl = getEl("#jobModalMeta");
+  const descEl = getEl("#jobModalDesc");
+  const applyEl = getEl("#jobModalApply");
+
+  if (titleEl) {
+    titleEl.textContent = job.title || "Job opportunity";
+  }
+
+  if (metaEl) {
+    const matchText =
+      job.match !== null && job.match !== undefined
+        ? ` · ${job.match}% match`
+        : "";
+
+    const formattedDate = typeof relativeTime === "function" ? relativeTime(job.date) : (job.date || "");
+
+    metaEl.textContent =
+      `${job.company || "Company not specified"} · ` +
+      `${job.location || "Location not specified"} · ` +
+      `${job.source || "Source"} · ` +
+      `posted ${formattedDate}` +
+      matchText;
+  }
+
+  if (descEl) {
+    descEl.textContent =
+      job.description ||
+      "No job description was provided by the source.";
+  }
+
+  if (applyEl) {
+    if (job.url) {
+      applyEl.href = job.url;
+      applyEl.target = "_blank";
+      applyEl.rel = "noopener noreferrer";
+      applyEl.textContent = "Apply on source site ↗";
+      applyEl.style.display = "inline-flex";
+      applyEl.removeAttribute("aria-disabled");
+    } else {
+      applyEl.removeAttribute("href");
+      applyEl.textContent = "Application link unavailable";
+      applyEl.style.display = "none";
+      applyEl.setAttribute("aria-disabled", "true");
+    }
+  }
+
+  if (typeof openModal === "function") {
+    openModal("#jobModal");
+  } else {
+    const modalEl = getEl("#jobModal");
+    if (modalEl) modalEl.classList.add("active");
+  }
+};
+
+/* ---------- Initialization & Global Event Listeners ---------- */
+
+document.addEventListener("DOMContentLoaded", () => {
   loadState();
   loadCompanies();
+  initUpload();
+
+  // Company Form Listeners
+  const companyPlatform = $("#companyPlatform");
+  if (companyPlatform) {
+    companyPlatform.addEventListener("change", updateCompanyFormHint);
+    updateCompanyFormHint();
+  }
+
+  const companyForm = $("#companyForm");
+  if (companyForm) {
+    companyForm.addEventListener("submit", e => {
+      e.preventDefault();
+      const name = $("#companyName")?.value.trim();
+      const platform = $("#companyPlatform")?.value;
+      const rawSlug = $("#companySlug")?.value.trim();
+      if (!name || !rawSlug) return;
+
+      let entry = { id: uid(), name, platform };
+      if (platform === "workday") {
+        const parsed = parseWorkdayUrl(rawSlug);
+        if (!parsed) {
+          alert("That doesn't look like a Workday careers URL. It should look like:\nhttps://tenant.wd5.myworkdayjobs.com/SiteName");
+          return;
+        }
+        entry = { ...entry, ...parsed, slug: `${parsed.tenant}/${parsed.site}` };
+      } else {
+        const slug = rawSlug.toLowerCase().replace(/\s+/g, "-");
+        entry.slug = slug;
+      }
+
+      if (companies.some(c => c.slug === entry.slug && c.platform === platform)) {
+        alert("That company board is already being tracked.");
+        return;
+      }
+      companies.push(entry);
+      saveCompanies();
+      renderCompanies();
+      e.target.reset();
+      updateCompanyFormHint();
+      scanJobs();
+    });
+  }
+
+  const companyList = $("#companyList");
+  if (companyList) {
+    companyList.addEventListener("click", e => {
+      const btn = e.target.closest("[data-remove-company]");
+      if (!btn) return;
+      companies = companies.filter(c => c.id !== btn.dataset.removeCompany);
+      saveCompanies();
+      renderCompanies();
+      scanJobs();
+    });
+  }
+
+  const bulkAddBtn = $("#bulkAddBtn");
+  if (bulkAddBtn) {
+    bulkAddBtn.addEventListener("click", () => {
+      const raw = $("#bulkCompanyInput")?.value.trim();
+      const resultEl = $("#bulkAddResult");
+      if (!raw) return;
+
+      const lines = raw.split("\n").map(l => l.trim()).filter(Boolean);
+      let added = 0, skipped = 0, errors = [];
+
+      lines.forEach(line => {
+        const parts = line.split(",").map(p => p.trim());
+        if (parts.length < 3) { skipped++; errors.push(`"${line}" — needs 3 fields`); return; }
+        const [name, platformRaw, rest] = parts;
+        const platform = platformRaw.toLowerCase();
+        if (!["greenhouse", "lever", "workday"].includes(platform)) {
+          skipped++; errors.push(`"${name}" — unknown platform "${platformRaw}"`); return;
+        }
+
+        let entry = { id: uid(), name, platform };
+        if (platform === "workday") {
+          const parsed = parseWorkdayUrl(rest);
+          if (!parsed) { skipped++; errors.push(`"${name}" — invalid Workday URL`); return; }
+          entry = { ...entry, ...parsed, slug: `${parsed.tenant}/${parsed.site}` };
+        } else {
+          entry.slug = rest.toLowerCase().replace(/\s+/g, "-");
+        }
+
+        if (companies.some(c => c.slug === entry.slug && c.platform === platform)) {
+          skipped++; errors.push(`"${name}" — already tracked`); return;
+        }
+        companies.push(entry);
+        added++;
+      });
+
+      saveCompanies();
+      renderCompanies();
+      if (added) scanJobs();
+
+      if (resultEl) {
+        resultEl.textContent = `Added ${added}${skipped ? `, skipped ${skipped}` : ""}.` +
+          (errors.length ? " " + errors.slice(0, 4).join(" · ") : "");
+      }
+      if (added) {
+        const bulkInput = $("#bulkCompanyInput");
+        if (bulkInput) bulkInput.value = "";
+      }
+    });
+  }
+
+  // Resume Event Handlers
+  const resumeList = $("#resumeList");
+  if (resumeList) {
+    resumeList.addEventListener("click", e => {
+      const btn = e.target.closest("[data-action]");
+      if (!btn) return;
+      const { action, id } = btn.dataset;
+      if (action === "activate") {
+        activeResumeId = id;
+        saveActive();
+        renderResumes();
+        recomputeMatches();
+        updateStats();
+        renderJobs();
+      } else if (action === "preview") {
+        openPreview(id);
+      } else if (action === "delete") {
+        deleteResume(id);
+      }
+    });
+  }
+
+  const removeAllBtn = $("#removeAllBtn");
+  if (removeAllBtn) {
+    removeAllBtn.addEventListener("click", () => {
+      if (!resumes.length) return;
+      if (!confirm("Remove all résumés? This can't be undone.")) return;
+      resumes = [];
+      activeResumeId = null;
+      saveResumes();
+      saveActive();
+      renderResumes();
+      recomputeMatches();
+      updateStats();
+      renderJobs();
+    });
+  }
+
+  // Filter & Control Listeners
+  const refreshBtn = $("#refreshBtn");
+  if (refreshBtn) refreshBtn.addEventListener("click", scanJobs);
+
+  const searchInput = $("#searchInput");
+  if (searchInput) searchInput.addEventListener("input", debounce(renderJobs, 200));
+
+  const sourceFilter = $("#sourceFilter");
+  if (sourceFilter) sourceFilter.addEventListener("change", renderJobs);
+
+  const locationFilter = $("#locationFilter");
+  if (locationFilter) locationFilter.addEventListener("change", renderJobs);
+
+  const matchOnlyToggle = $("#matchOnlyToggle");
+  if (matchOnlyToggle) matchOnlyToggle.addEventListener("change", renderJobs);
+
+  const sortBySelect = $("#sortBySelect");
+  if (sortBySelect) sortBySelect.addEventListener("change", renderJobs);
+
+  const loadMoreBtn = $("#loadMoreBtn");
+  if (loadMoreBtn) {
+    loadMoreBtn.addEventListener("click", () => {
+      visibleCount += CONFIG.pageSize;
+      renderJobs();
+    });
+  }
+
+  // Modal Dismissal
+  $$("[data-close]").forEach(el => el.addEventListener("click", e => {
+    const parentModal = e.target.closest(".modal");
+    if (parentModal) closeModal(parentModal);
+  }));
+
+  $$(".modal").forEach(m => m.addEventListener("click", e => {
+    if (e.target === m || e.target.classList.contains("modal-backdrop")) closeModal(m);
+  }));
+
+  document.addEventListener("keydown", e => {
+    if (e.key === "Escape") $$(".modal:not([hidden])").forEach(m => closeModal(m));
+  });
+
+  // Delegate Job Click Handling
+  const jobsList = $("#jobsList");
+  if (jobsList) {
+    jobsList.addEventListener("click", e => {
+      const openBtn = e.target.closest("[data-open-job]");
+      if (openBtn) {
+        e.preventDefault();
+        const id = openBtn.getAttribute("data-open-job");
+        if (id) window.openJobModal(id);
+      }
+    });
+  }
+
+  // Initial UI Render
   renderResumes();
   renderCompanies();
-  updateStats();
 
+  // Load from cache or launch full scan
   const cache = loadJobsCache();
   if (cache && Array.isArray(cache.jobs) && cache.jobs.length) {
     allJobs = cache.jobs;
-    lastScanAt = cache.updatedAt ? new Date(cache.updatedAt) : null;
-    if (cache.resumeId !== activeResumeId) recomputeMatches(); // active résumé changed since last cache
+    if (cache.updatedAt) lastScanAt = new Date(cache.updatedAt);
+    recomputeMatches();
     populateLocationFilter();
     renderJobs();
     updateStats();
-    $("#jobsStatus").textContent =
-      `Showing ${allJobs.length} postings from your last scan (${relativeTime((lastScanAt || new Date()).toISOString())}). Click Rescan for the latest.`;
+    const statusEl = $("#jobsStatus");
+    if (statusEl) {
+      statusEl.textContent = `Loaded ${allJobs.length} cached postings (last scanned ${lastScanAt ? relativeTime(lastScanAt) : "recently"}). Click Rescan to refresh.`;
+    }
   } else {
-    scanJobs(); // first-ever visit — nothing cached yet, so fetch once
+    scanJobs();
   }
-})();
+});
