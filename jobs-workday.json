@@ -1,6 +1,116 @@
 {
-  "updatedAt": "2026-10-01T03:23:10.278Z",
+  "updatedAt": "2026-10-01T12:09:19.616Z",
   "jobs": [
+    {
+      "id": "wd-accenture-AccentureCareers-R00347102",
+      "source": "Company · Accenture",
+      "title": "Machine Learning Engineer",
+      "company": "Accenture",
+      "location": "See listing",
+      "tags": [],
+      "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Ebene/Machine-Learning-Engineer_R00347102",
+      "description": "",
+      "date": "2026-10-01T12:09:17.934Z"
+    },
+    {
+      "id": "wd-accenture-AccentureCareers-R00332630",
+      "source": "Company · Accenture",
+      "title": "Senior SAP S/4HANA Utilities Consultant Energiewirtschaft (all genders)",
+      "company": "Accenture",
+      "location": "See listing",
+      "tags": [],
+      "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Kronberg-Building-Beta/Senior-SAP-S-4HANA-Utilities-Consultant-Energiewirtschaft--all-genders-_R00332630",
+      "description": "",
+      "date": "2026-10-01T12:09:17.934Z"
+    },
+    {
+      "id": "wd-accenture-AccentureCareers-R00277523",
+      "source": "Company · Accenture",
+      "title": "IT Delivery Lead Energieversorger (all genders)",
+      "company": "Accenture",
+      "location": "See listing",
+      "tags": [],
+      "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Kronberg-Building-Beta/Projektleiter-IT--und-Delivery-Transformationen---Energieversorger--all-genders-_R00277523-1",
+      "description": "",
+      "date": "2026-10-01T12:09:17.934Z"
+    },
+    {
+      "id": "wd-accenture-AccentureCareers-R00286439",
+      "source": "Company · Accenture",
+      "title": "SAP Insurance Consultant Financial Services  (all genders)",
+      "company": "Accenture",
+      "location": "See listing",
+      "tags": [],
+      "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Kronberg-Building-Beta/SAP-Insurance-Consultant-Financial-Services---all-genders-_R00286439",
+      "description": "",
+      "date": "2026-10-01T12:09:17.934Z"
+    },
+    {
+      "id": "wd-accenture-AccentureCareers-R00277038",
+      "source": "Company · Accenture",
+      "title": "IT Delivery Lead Insurance (all genders)",
+      "company": "Accenture",
+      "location": "See listing",
+      "tags": [],
+      "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Kronberg/IT-Delivery-Lead-Insurance_R00277038",
+      "description": "",
+      "date": "2026-10-01T12:09:17.934Z"
+    },
+    {
+      "id": "wd-accenture-AccentureCareers-R00286450",
+      "source": "Company · Accenture",
+      "title": "IT Consultant Business Analyse Versicherung (all genders)",
+      "company": "Accenture",
+      "location": "See listing",
+      "tags": [],
+      "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Kronberg/IT-Consultant-Business-Analyse-Versicherung--all-genders-_R00286450",
+      "description": "",
+      "date": "2026-10-01T12:09:17.934Z"
+    },
+    {
+      "id": "wd-accenture-AccentureCareers-R00170741",
+      "source": "Company · Accenture",
+      "title": "Bridge Engineer (English Speaking – SAP FICO)",
+      "company": "Accenture",
+      "location": "See listing",
+      "tags": [],
+      "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Ho-ChiMinh/Monitoring-Devops-Engineer_R00170741-1",
+      "description": "",
+      "date": "2026-10-01T12:09:17.934Z"
+    },
+    {
+      "id": "wd-accenture-AccentureCareers-R00359939",
+      "source": "Company · Accenture",
+      "title": "Contract Specialist (French Speaker)",
+      "company": "Accenture",
+      "location": "See listing",
+      "tags": [],
+      "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Cairo-CO55-Uvenues/Contract-Specialist--French-Speaker-_R00359939",
+      "description": "",
+      "date": "2026-10-01T12:09:17.934Z"
+    },
+    {
+      "id": "wd-accenture-AccentureCareers-R00356264",
+      "source": "Company · Accenture",
+      "title": "Accenture apuesta por la Diversidad (España)",
+      "company": "Accenture",
+      "location": "See listing",
+      "tags": [],
+      "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Sevilla/Accenture-apuesta-por-la-Diversidad--Espaa-_R00356264",
+      "description": "",
+      "date": "2026-10-01T12:09:17.934Z"
+    },
+    {
+      "id": "wd-accenture-AccentureCareers-R00356412",
+      "source": "Company · Accenture",
+      "title": "Cloud Infrastructure Architect",
+      "company": "Accenture",
+      "location": "See listing",
+      "tags": [],
+      "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/London/Infra-Transformation-Assoc-Manager_R00356412",
+      "description": "",
+      "date": "2026-10-01T12:09:17.934Z"
+    },
     {
       "id": "wd-accenture-AccentureCareers-R00361128",
       "source": "Company · Accenture",
@@ -10,7 +120,7 @@
       "tags": [],
       "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Buenos-Aires-Parque-Patricios/Strategy---Consulting---Technology-Lead---Value-Case-Transformation_R00361128",
       "description": "",
-      "date": "2026-10-01T03:23:08.776Z"
+      "date": "2026-09-30T12:09:17.934Z"
     },
     {
       "id": "wd-accenture-AccentureCareers-R00360919",
@@ -21,7 +131,7 @@
       "tags": [],
       "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Sao-Paulo-Torre-Paineira/Compliance-and-Ethics-Senior-Analyst_R00360919",
       "description": "",
-      "date": "2026-10-01T03:23:08.776Z"
+      "date": "2026-09-30T12:09:17.934Z"
     },
     {
       "id": "wd-accenture-AccentureCareers-R00360422",
@@ -32,7 +142,7 @@
       "tags": [],
       "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Chicago-Accenture-Tower-Corp/Life-Insurance-Consulting-Manager_R00360422",
       "description": "",
-      "date": "2026-10-01T03:23:08.776Z"
+      "date": "2026-09-30T12:09:17.934Z"
     },
     {
       "id": "wd-accenture-AccentureCareers-R00353580",
@@ -43,7 +153,7 @@
       "tags": [],
       "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Arlington-1201-Wilson-Corp/Security-Operations-Center-Manager_R00353580",
       "description": "",
-      "date": "2026-10-01T03:23:08.776Z"
+      "date": "2026-09-30T12:09:17.934Z"
     },
     {
       "id": "wd-accenture-AccentureCareers-R00360572",
@@ -54,7 +164,7 @@
       "tags": [],
       "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Chicago-Accenture-Tower-Corp/P-C-Management-Consultant_R00360572",
       "description": "",
-      "date": "2026-10-01T03:23:08.776Z"
+      "date": "2026-09-30T12:09:17.934Z"
     },
     {
       "id": "wd-accenture-AccentureCareers-R00360443",
@@ -65,7 +175,7 @@
       "tags": [],
       "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Chicago-Accenture-Tower-Corp/Life-Insurance-Management-Consultant_R00360443",
       "description": "",
-      "date": "2026-10-01T03:23:08.776Z"
+      "date": "2026-09-30T12:09:17.934Z"
     },
     {
       "id": "wd-accenture-AccentureCareers-R00361037",
@@ -76,7 +186,7 @@
       "tags": [],
       "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Amsterdam/GCC-Sales-Advisory-Lead_R00361037-1",
       "description": "",
-      "date": "2026-10-01T03:23:08.776Z"
+      "date": "2026-09-30T12:09:17.934Z"
     },
     {
       "id": "wd-accenture-AccentureCareers-R00342918",
@@ -87,7 +197,7 @@
       "tags": [],
       "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Ebene/Software-Engineer-Intern_R00342918-1",
       "description": "",
-      "date": "2026-10-01T03:23:08.776Z"
+      "date": "2026-09-30T12:09:17.934Z"
     },
     {
       "id": "wd-accenture-AccentureCareers-R00358441",
@@ -98,7 +208,7 @@
       "tags": [],
       "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Madrid-Torre-Chamartin/Salesforce-Developer_R00358441",
       "description": "",
-      "date": "2026-10-01T03:23:08.776Z"
+      "date": "2026-09-30T12:09:17.934Z"
     },
     {
       "id": "wd-accenture-AccentureCareers-R00360928",
@@ -109,7 +219,18 @@
       "tags": [],
       "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Buenos-Aires/Finance-Semantic-Model-Architect_R00360928",
       "description": "",
-      "date": "2026-10-01T03:23:08.776Z"
+      "date": "2026-09-30T12:09:17.934Z"
+    },
+    {
+      "id": "wd-accenture-AccentureCareers-R00360928",
+      "source": "Company · Accenture",
+      "title": "Finance Semantic Model Architect",
+      "company": "Accenture",
+      "location": "See listing",
+      "tags": [],
+      "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Buenos-Aires/Finance-Semantic-Model-Architect_R00360928",
+      "description": "",
+      "date": "2026-09-30T12:09:19.616Z"
     },
     {
       "id": "wd-accenture-AccentureCareers-R00337569",
@@ -120,7 +241,7 @@
       "tags": [],
       "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Sao-Bernardo-do-Campo-Brasilio-Machado/Analista-de-Operaes-Logsticas-Snior---Hbrido_R00337569",
       "description": "",
-      "date": "2026-10-01T03:23:08.776Z"
+      "date": "2026-09-30T12:09:19.616Z"
     },
     {
       "id": "wd-accenture-AccentureCareers-R00361000",
@@ -131,7 +252,7 @@
       "tags": [],
       "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/London/Management-Consulting-Manager---Fraud_R00361000",
       "description": "",
-      "date": "2026-10-01T03:23:08.776Z"
+      "date": "2026-09-30T12:09:19.616Z"
     },
     {
       "id": "wd-accenture-AccentureCareers-R00358438",
@@ -142,7 +263,7 @@
       "tags": [],
       "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Dublin/Business-Development-Representative---Agency---Nordic-OR-Dutch-OR-French_R00358438",
       "description": "",
-      "date": "2026-10-01T03:23:08.776Z"
+      "date": "2026-09-30T12:09:19.616Z"
     },
     {
       "id": "wd-accenture-AccentureCareers-R00360957",
@@ -153,7 +274,7 @@
       "tags": [],
       "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Sevilla/Accenture-apuesta-por-la-Diversidad--Espaa-_R00360957",
       "description": "",
-      "date": "2026-10-01T03:23:08.776Z"
+      "date": "2026-09-30T12:09:19.616Z"
     },
     {
       "id": "wd-accenture-AccentureCareers-R00360978",
@@ -164,7 +285,7 @@
       "tags": [],
       "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Dublin/Digital-Marketing---Agency-Existing-Business----Dutch-Speaker_R00360978",
       "description": "",
-      "date": "2026-10-01T03:23:08.776Z"
+      "date": "2026-09-30T12:09:19.616Z"
     },
     {
       "id": "wd-accenture-AccentureCareers-R00359168",
@@ -175,7 +296,7 @@
       "tags": [],
       "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Amsterdam/AGBG-Full-Stack-Engineer---Google-Deployed-Engineer_R00359168",
       "description": "",
-      "date": "2026-10-01T03:23:08.776Z"
+      "date": "2026-09-30T12:09:19.616Z"
     },
     {
       "id": "wd-accenture-AccentureCareers-R00359161",
@@ -186,7 +307,7 @@
       "tags": [],
       "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Roma/AGBG-Full-Stack-Engineer---Google-Deployed-Engineer_R00359161",
       "description": "",
-      "date": "2026-10-01T03:23:08.776Z"
+      "date": "2026-09-30T12:09:19.616Z"
     },
     {
       "id": "wd-accenture-AccentureCareers-R00332596",
@@ -197,7 +318,7 @@
       "tags": [],
       "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Warsaw/Process-Mining-Reinventor--Analyst-_R00332596-1",
       "description": "",
-      "date": "2026-10-01T03:23:08.776Z"
+      "date": "2026-09-30T12:09:19.616Z"
     },
     {
       "id": "wd-accenture-AccentureCareers-R00335508",
@@ -208,7 +329,7 @@
       "tags": [],
       "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Tokyo/-------Song_R00335508",
       "description": "",
-      "date": "2026-10-01T03:23:08.776Z"
+      "date": "2026-09-30T12:09:19.616Z"
     },
     {
       "id": "wd-accenture-AccentureCareers-R00360567",
@@ -219,7 +340,7 @@
       "tags": [],
       "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Chicago-Accenture-Tower-Corp/P-C-Technology-Management-Consulting-Manager_R00360567",
       "description": "",
-      "date": "2026-09-30T03:23:08.776Z"
+      "date": "2026-09-29T12:09:19.616Z"
     },
     {
       "id": "wd-accenture-AccentureCareers-R00360557",
@@ -230,7 +351,7 @@
       "tags": [],
       "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Chicago-Accenture-Tower-Corp/P-C-Management-Consulting-Manager_R00360557",
       "description": "",
-      "date": "2026-09-30T03:23:10.278Z"
+      "date": "2026-09-29T12:09:19.616Z"
     },
     {
       "id": "wd-accenture-AccentureCareers-R00337818",
@@ -241,7 +362,7 @@
       "tags": [],
       "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/New-York-One-Manhattan-West-Corp/Retail-Banking-Manager_R00337818",
       "description": "",
-      "date": "2026-09-30T03:23:10.278Z"
+      "date": "2026-09-29T12:09:19.616Z"
     },
     {
       "id": "wd-accenture-AccentureCareers-R00351665",
@@ -252,7 +373,7 @@
       "tags": [],
       "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Sao-Paulo-Torre-Paineira/Analista-Pleno-de-Engenharia-de-Dados_R00351665",
       "description": "",
-      "date": "2026-09-30T03:23:10.278Z"
+      "date": "2026-09-29T12:09:19.616Z"
     },
     {
       "id": "wd-accenture-AccentureCareers-R00337820",
@@ -263,7 +384,7 @@
       "tags": [],
       "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/New-York-One-Manhattan-West-Corp/Retail-Banking-Senior-Manager_R00337820",
       "description": "",
-      "date": "2026-09-30T03:23:10.278Z"
+      "date": "2026-09-29T12:09:19.616Z"
     },
     {
       "id": "wd-accenture-AccentureCareers-R00360705",
@@ -274,7 +395,7 @@
       "tags": [],
       "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Heredia/Clinical---Care-Delivery_R00360705",
       "description": "",
-      "date": "2026-09-30T03:23:10.278Z"
+      "date": "2026-09-29T12:09:19.616Z"
     },
     {
       "id": "wd-accenture-AccentureCareers-R00360755",
@@ -285,7 +406,7 @@
       "tags": [],
       "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Heredia/Strategy---Consulting---Global-Network---Health---EMR-Consulting-Manager_R00360755",
       "description": "",
-      "date": "2026-09-30T03:23:10.278Z"
+      "date": "2026-09-29T12:09:19.616Z"
     },
     {
       "id": "wd-accenture-AccentureCareers-R00196897",
@@ -296,7 +417,7 @@
       "tags": [],
       "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Gurugram-DDC1A-NonSTPI/S-C-Global-Network---AI---CMT---Consultant-Data-Science_R00196897",
       "description": "",
-      "date": "2026-09-30T03:23:10.278Z"
+      "date": "2026-09-29T12:09:19.616Z"
     },
     {
       "id": "wd-accenture-AccentureCareers-R00360751",
@@ -307,7 +428,7 @@
       "tags": [],
       "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Heredia/Strategy---Consulting---Global-Network---Health---Public-Health-Policy---Community-Health-Transformation-Consultant_R00360751",
       "description": "",
-      "date": "2026-09-30T03:23:10.278Z"
+      "date": "2026-09-29T12:09:19.616Z"
     },
     {
       "id": "wd-accenture-AccentureCareers-R00229014",
@@ -318,128 +439,106 @@
       "tags": [],
       "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Bengaluru-BDC7C/S-C-Global-Network---AI---Software---Platform---Gen-AI---Manager_R00229014",
       "description": "",
-      "date": "2026-09-30T03:23:10.278Z"
+      "date": "2026-09-29T12:09:19.616Z"
     },
     {
-      "id": "wd-accenture-AccentureCareers-R00235722",
-      "source": "Company · Accenture",
-      "title": "Ads Sales Account Representative Analyst",
-      "company": "Accenture",
-      "location": "See listing",
+      "id": "wd-nvidia-NVIDIAExternalCareerSite-JR2022438",
+      "source": "Company · NVIDIA",
+      "title": "Senior Cloud Infrastructure and Network Operations Solutions Architect",
+      "company": "NVIDIA",
+      "location": "5 Locations",
       "tags": [],
-      "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Heredia/Advertising-Sales-Representative_R00235722",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/UK-Reading/Senior-Cloud-Infrastructure-and-Network-Operations-Solutions-Architect_JR2022438-1",
       "description": "",
-      "date": "2026-09-30T03:23:10.278Z"
+      "date": "2026-10-01T12:09:16.593Z"
     },
     {
-      "id": "wd-accenture-AccentureCareers-R00359220",
-      "source": "Company · Accenture",
-      "title": "Arquitecto Devops/SDLC - Github Actions",
-      "company": "Accenture",
-      "location": "See listing",
+      "id": "wd-nvidia-NVIDIAExternalCareerSite-JR2021296",
+      "source": "Company · NVIDIA",
+      "title": "Solutions Architect - NVIDIA AI Cloud Partners",
+      "company": "NVIDIA",
+      "location": "2 Locations",
       "tags": [],
-      "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Madrid/Arquitecto-Devops-SDLC---Github-Actions_R00359220-1",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/France-Courbevoie/Solutions-Architect---NVIDIA-AI-Cloud-Partners_JR2021296-1",
       "description": "",
-      "date": "2026-09-30T03:23:10.278Z"
+      "date": "2026-10-01T12:09:16.593Z"
     },
     {
-      "id": "wd-accenture-AccentureCareers-R00360711",
-      "source": "Company · Accenture",
-      "title": "Strategy & Consulting - Global Network - Health - Provider Operations Consultant",
-      "company": "Accenture",
-      "location": "See listing",
+      "id": "wd-nvidia-NVIDIAExternalCareerSite-JR2025884",
+      "source": "Company · NVIDIA",
+      "title": "Engineering Manager – AI Platform & SRE",
+      "company": "NVIDIA",
+      "location": "US, CA, Santa Clara",
       "tags": [],
-      "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Heredia/Strategy---Consulting---Global-Network---Health---Provider-Operations-Consultant_R00360711",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Engineering-Manager---AI-Platform---SRE_JR2025884",
       "description": "",
-      "date": "2026-09-30T03:23:10.278Z"
+      "date": "2026-10-01T12:09:16.593Z"
     },
     {
-      "id": "wd-accenture-AccentureCareers-R00335811",
-      "source": "Company · Accenture",
-      "title": "Digital Assets Consultant",
-      "company": "Accenture",
-      "location": "See listing",
+      "id": "wd-nvidia-NVIDIAExternalCareerSite-JR2025006",
+      "source": "Company · NVIDIA",
+      "title": "Senior Infrastructure Engineer - Connectivity",
+      "company": "NVIDIA",
+      "location": "US, CA, Santa Clara",
       "tags": [],
-      "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/New-York-One-Manhattan-West-Corp/Digital-Assets-Consultant_R00335811",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Infrastructure-Engineer---Connectivity_JR2025006",
       "description": "",
-      "date": "2026-09-30T03:23:10.278Z"
+      "date": "2026-10-01T12:09:16.593Z"
     },
     {
-      "id": "wd-accenture-AccentureCareers-R00351594",
-      "source": "Company · Accenture",
-      "title": "Banking Strategy Process Consultant",
-      "company": "Accenture",
-      "location": "See listing",
+      "id": "wd-nvidia-NVIDIAExternalCareerSite-JR2026409",
+      "source": "Company · NVIDIA",
+      "title": "Senior System Software Engineer - Integration and Analytics",
+      "company": "NVIDIA",
+      "location": "2 Locations",
       "tags": [],
-      "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/New-York-One-Manhattan-West-Corp/Banking-Strategy-Process-Consultant_R00351594",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Taiwan-Taipei/Senior-System-Software-Engineer---Integration-and-Analytics_JR2026409",
       "description": "",
-      "date": "2026-09-30T03:23:10.278Z"
+      "date": "2026-10-01T12:09:16.593Z"
     },
     {
-      "id": "wd-accenture-AccentureCareers-R00335724",
-      "source": "Company · Accenture",
-      "title": "Digital Assets Senior Manager",
-      "company": "Accenture",
-      "location": "See listing",
+      "id": "wd-nvidia-NVIDIAExternalCareerSite-JR2026202",
+      "source": "Company · NVIDIA",
+      "title": "Senior DFT Engineer",
+      "company": "NVIDIA",
+      "location": "2 Locations",
       "tags": [],
-      "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/New-York-One-Manhattan-West-Corp/Digital-Assets-Senior-Manager_R00335724",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-DFT-Engineer_JR2026202",
       "description": "",
-      "date": "2026-09-30T03:23:10.278Z"
+      "date": "2026-10-01T12:09:16.593Z"
     },
     {
-      "id": "wd-accenture-AccentureCareers-R00360684",
-      "source": "Company · Accenture",
-      "title": "Business Development Representative - Agency - Nordic (CL12)",
-      "company": "Accenture",
-      "location": "See listing",
+      "id": "wd-nvidia-NVIDIAExternalCareerSite-JR2026612",
+      "source": "Company · NVIDIA",
+      "title": "Senior Software Engineer - DGX Cloud",
+      "company": "NVIDIA",
+      "location": "3 Locations",
       "tags": [],
-      "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Dublin/Business-Development-Representative---Agency---Nordic--CL12-_R00360684",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-WA-Seattle/Senior-Software-Engineer---DGX-Cloud_JR2026612",
       "description": "",
-      "date": "2026-09-30T03:23:10.278Z"
+      "date": "2026-10-01T12:09:16.593Z"
     },
     {
-      "id": "wd-accenture-AccentureCareers-R00360681",
-      "source": "Company · Accenture",
-      "title": "Business Development Representative - Agency - Dutch (CL12)",
-      "company": "Accenture",
-      "location": "See listing",
+      "id": "wd-nvidia-NVIDIAExternalCareerSite-JR2022707",
+      "source": "Company · NVIDIA",
+      "title": "IC Test Lab Shift Specialist",
+      "company": "NVIDIA",
+      "location": "Israel, Yokneam",
       "tags": [],
-      "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Dublin/Business-Development-Representative---Agency---Dutch--CL12-_R00360681",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Israel-Yokneam/IC-Test-Lab-Shift-Specialist_JR2022707",
       "description": "",
-      "date": "2026-09-30T03:23:10.278Z"
+      "date": "2026-10-01T12:09:16.593Z"
     },
     {
-      "id": "wd-accenture-AccentureCareers-R00360672",
-      "source": "Company · Accenture",
-      "title": "Digital Marketing - Agency Existing Business  - Spanish Speaker",
-      "company": "Accenture",
-      "location": "See listing",
+      "id": "wd-nvidia-NVIDIAExternalCareerSite-JR2025269",
+      "source": "Company · NVIDIA",
+      "title": "Senior Release Manager",
+      "company": "NVIDIA",
+      "location": "2 Locations",
       "tags": [],
-      "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Dublin/Digital-Marketing---Agency-Existing-Business----Spanish-Speaker_R00360672",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Israel-Raanana/Senior-Release-Manager_JR2025269",
       "description": "",
-      "date": "2026-09-30T03:23:10.278Z"
-    },
-    {
-      "id": "wd-accenture-AccentureCareers-R00290157",
-      "source": "Company · Accenture",
-      "title": "Digital Marketing - Agency Existing Business  - German Speaker",
-      "company": "Accenture",
-      "location": "See listing",
-      "tags": [],
-      "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Dublin/Digital-Marketing---Agency-Existing-Business----German-Speaker_R00290157",
-      "description": "",
-      "date": "2026-09-30T03:23:10.278Z"
-    },
-    {
-      "id": "wd-accenture-AccentureCareers-R00360667",
-      "source": "Company · Accenture",
-      "title": "Digital Marketing - Acquisition - Dutch Speaker",
-      "company": "Accenture",
-      "location": "See listing",
-      "tags": [],
-      "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Dublin/Digital-Marketing---Acquisition---Dutch-Speaker_R00360667",
-      "description": "",
-      "date": "2026-09-30T03:23:10.278Z"
+      "date": "2026-10-01T12:09:16.593Z"
     },
     {
       "id": "wd-nvidia-NVIDIAExternalCareerSite-JR2000499",
@@ -450,7 +549,7 @@
       "tags": [],
       "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-DFT-Engineer_JR2000499",
       "description": "",
-      "date": "2026-10-01T03:23:07.674Z"
+      "date": "2026-09-30T12:09:16.593Z"
     },
     {
       "id": "wd-nvidia-NVIDIAExternalCareerSite-JR2025091",
@@ -461,7 +560,7 @@
       "tags": [],
       "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Technical-Program-Manager---DFX-Engineering_JR2025091",
       "description": "",
-      "date": "2026-10-01T03:23:07.674Z"
+      "date": "2026-09-30T12:09:16.593Z"
     },
     {
       "id": "wd-nvidia-NVIDIAExternalCareerSite-JR2013354",
@@ -472,7 +571,7 @@
       "tags": [],
       "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Technical-Program-Manager---VLSI_JR2013354",
       "description": "",
-      "date": "2026-10-01T03:23:07.674Z"
+      "date": "2026-09-30T12:09:16.593Z"
     },
     {
       "id": "wd-nvidia-NVIDIAExternalCareerSite-JR2026819",
@@ -483,7 +582,7 @@
       "tags": [],
       "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/System-Software-Engineer---Robotics-Simulation_JR2026819",
       "description": "",
-      "date": "2026-10-01T03:23:07.674Z"
+      "date": "2026-09-30T12:09:16.593Z"
     },
     {
       "id": "wd-nvidia-NVIDIAExternalCareerSite-JR2026351",
@@ -494,7 +593,7 @@
       "tags": [],
       "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Graphics-System-Software-Engineer_JR2026351",
       "description": "",
-      "date": "2026-10-01T03:23:07.674Z"
+      "date": "2026-09-30T12:09:16.593Z"
     },
     {
       "id": "wd-nvidia-NVIDIAExternalCareerSite-JR2025647",
@@ -505,7 +604,7 @@
       "tags": [],
       "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-WA-Seattle/Research-Intern--Robotics---Summer-2027_JR2025647",
       "description": "",
-      "date": "2026-10-01T03:23:07.674Z"
+      "date": "2026-09-30T12:09:16.593Z"
     },
     {
       "id": "wd-nvidia-NVIDIAExternalCareerSite-JR2018104",
@@ -516,7 +615,7 @@
       "tags": [],
       "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Internal-Auditor---Operations_JR2018104",
       "description": "",
-      "date": "2026-10-01T03:23:07.674Z"
+      "date": "2026-09-30T12:09:16.593Z"
     },
     {
       "id": "wd-nvidia-NVIDIAExternalCareerSite-JR2017657",
@@ -527,7 +626,7 @@
       "tags": [],
       "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-DFT-Engineer_JR2017657",
       "description": "",
-      "date": "2026-10-01T03:23:07.674Z"
+      "date": "2026-09-30T12:09:16.593Z"
     },
     {
       "id": "wd-nvidia-NVIDIAExternalCareerSite-JR2016562",
@@ -538,7 +637,7 @@
       "tags": [],
       "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-GPU-Architect--Performance-and-Scalability_JR2016562",
       "description": "",
-      "date": "2026-10-01T03:23:07.674Z"
+      "date": "2026-09-30T12:09:16.593Z"
     },
     {
       "id": "wd-nvidia-NVIDIAExternalCareerSite-JR2016610",
@@ -549,7 +648,7 @@
       "tags": [],
       "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Israel-Yokneam/Senior-QA-Software-Engineer--Networking_JR2016610",
       "description": "",
-      "date": "2026-10-01T03:23:07.674Z"
+      "date": "2026-09-30T12:09:16.593Z"
     },
     {
       "id": "wd-nvidia-NVIDIAExternalCareerSite-JR2025871",
@@ -560,7 +659,7 @@
       "tags": [],
       "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Remote/Solutions-Architect--Virtualization_JR2025871-1",
       "description": "",
-      "date": "2026-10-01T03:23:07.674Z"
+      "date": "2026-09-30T12:09:16.593Z"
     },
     {
       "id": "wd-nvidia-NVIDIAExternalCareerSite-JR2020087",
@@ -571,7 +670,7 @@
       "tags": [],
       "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/India-Pune/Senior-System-Software-Engineer--Speech-AI_JR2020087-1",
       "description": "",
-      "date": "2026-10-01T03:23:07.674Z"
+      "date": "2026-09-30T12:09:17.390Z"
     },
     {
       "id": "wd-nvidia-NVIDIAExternalCareerSite-JR2025379",
@@ -582,7 +681,7 @@
       "tags": [],
       "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/PhD-Research-Intern--Programming-Systems---2027_JR2025379",
       "description": "",
-      "date": "2026-10-01T03:23:07.674Z"
+      "date": "2026-09-30T12:09:17.390Z"
     },
     {
       "id": "wd-nvidia-NVIDIAExternalCareerSite-JR2026835",
@@ -593,7 +692,7 @@
       "tags": [],
       "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-System-Software-Test-Engineer--Networking_JR2026835",
       "description": "",
-      "date": "2026-10-01T03:23:07.674Z"
+      "date": "2026-09-30T12:09:17.390Z"
     },
     {
       "id": "wd-nvidia-NVIDIAExternalCareerSite-JR2011879",
@@ -604,7 +703,7 @@
       "tags": [],
       "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/System-Design-Engineer---New-College-Grad-2026_JR2011879",
       "description": "",
-      "date": "2026-10-01T03:23:07.674Z"
+      "date": "2026-09-30T12:09:17.390Z"
     },
     {
       "id": "wd-nvidia-NVIDIAExternalCareerSite-JR2026245",
@@ -615,7 +714,7 @@
       "tags": [],
       "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Growth-Engineer--Developer-Platform_JR2026245-1",
       "description": "",
-      "date": "2026-10-01T03:23:07.674Z"
+      "date": "2026-09-30T12:09:17.390Z"
     },
     {
       "id": "wd-nvidia-NVIDIAExternalCareerSite-JR2026287",
@@ -626,7 +725,7 @@
       "tags": [],
       "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Principal-Segment-Sales-Manager---AI-Factory-Fabric-Software_JR2026287",
       "description": "",
-      "date": "2026-10-01T03:23:07.674Z"
+      "date": "2026-09-30T12:09:17.390Z"
     },
     {
       "id": "wd-nvidia-NVIDIAExternalCareerSite-JR2026886",
@@ -637,7 +736,7 @@
       "tags": [],
       "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/India-Bengaluru/Senior-GPU-Compiler-Development-Engineer_JR2026886",
       "description": "",
-      "date": "2026-10-01T03:23:07.674Z"
+      "date": "2026-09-30T12:09:17.390Z"
     },
     {
       "id": "wd-nvidia-NVIDIAExternalCareerSite-JR2025019",
@@ -648,7 +747,7 @@
       "tags": [],
       "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Remote/Senior-Linux-Systems-Engineer---EDA-Infrastructure_JR2025019",
       "description": "",
-      "date": "2026-10-01T03:23:07.674Z"
+      "date": "2026-09-30T12:09:17.390Z"
     },
     {
       "id": "wd-nvidia-NVIDIAExternalCareerSite-JR2021522",
@@ -659,7 +758,7 @@
       "tags": [],
       "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Israel-Yokneam/Senior-Software-Engineer--AI-Agent-Platforms_JR2021522",
       "description": "",
-      "date": "2026-10-01T03:23:07.674Z"
+      "date": "2026-09-30T12:09:17.390Z"
     },
     {
       "id": "wd-nvidia-NVIDIAExternalCareerSite-JR2020387",
@@ -670,7 +769,7 @@
       "tags": [],
       "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Germany-Munich/IT-Support-Engineer_JR2020387-1",
       "description": "",
-      "date": "2026-10-01T03:23:08.652Z"
+      "date": "2026-09-30T12:09:17.390Z"
     },
     {
       "id": "wd-nvidia-NVIDIAExternalCareerSite-JR2026439",
@@ -681,7 +780,7 @@
       "tags": [],
       "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Germany-Berlin/DevOps-Engineer---Build---CI-CD_JR2026439",
       "description": "",
-      "date": "2026-10-01T03:23:08.652Z"
+      "date": "2026-09-30T12:09:17.390Z"
     },
     {
       "id": "wd-nvidia-NVIDIAExternalCareerSite-JR2026191",
@@ -692,7 +791,7 @@
       "tags": [],
       "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Germany-Munich/Senior-Software-Engineer---AV-Components_JR2026191",
       "description": "",
-      "date": "2026-10-01T03:23:08.652Z"
+      "date": "2026-09-30T12:09:17.390Z"
     },
     {
       "id": "wd-nvidia-NVIDIAExternalCareerSite-JR2026775",
@@ -703,7 +802,7 @@
       "tags": [],
       "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Switzerland-Zurich/Developer-Technology-Engineering-Intern---Compute-Performance_JR2026775",
       "description": "",
-      "date": "2026-10-01T03:23:08.652Z"
+      "date": "2026-09-30T12:09:17.390Z"
     },
     {
       "id": "wd-nvidia-NVIDIAExternalCareerSite-JR2025740",
@@ -714,7 +813,7 @@
       "tags": [],
       "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Israel-Yokneam/Software-Manager--DOCA-Services_JR2025740",
       "description": "",
-      "date": "2026-10-01T03:23:08.652Z"
+      "date": "2026-09-30T12:09:17.390Z"
     },
     {
       "id": "wd-nvidia-NVIDIAExternalCareerSite-JR2026262",
@@ -725,7 +824,7 @@
       "tags": [],
       "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/China-Shanghai/Deep-Learning-Compiler-Intern---2027_JR2026262",
       "description": "",
-      "date": "2026-10-01T03:23:08.652Z"
+      "date": "2026-09-30T12:09:17.390Z"
     },
     {
       "id": "wd-nvidia-NVIDIAExternalCareerSite-JR2026307",
@@ -736,7 +835,7 @@
       "tags": [],
       "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/China-Shanghai/Software-Engineer-Intern--AI-and-DL-Kernel-Libraries---2027_JR2026307",
       "description": "",
-      "date": "2026-10-01T03:23:08.652Z"
+      "date": "2026-09-30T12:09:17.390Z"
     },
     {
       "id": "wd-nvidia-NVIDIAExternalCareerSite-JR2025966",
@@ -747,7 +846,7 @@
       "tags": [],
       "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/China-Shanghai/Deep-Learning-Performance-Software-Intern---2027_JR2025966",
       "description": "",
-      "date": "2026-10-01T03:23:08.652Z"
+      "date": "2026-09-30T12:09:17.390Z"
     },
     {
       "id": "wd-nvidia-NVIDIAExternalCareerSite-JR2026524",
@@ -758,7 +857,7 @@
       "tags": [],
       "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/China-Shanghai/Manager--Silicon-Circuit-Co-Design---Silicon-Co-Design-Group_JR2026524",
       "description": "",
-      "date": "2026-10-01T03:23:08.652Z"
+      "date": "2026-09-30T12:09:17.390Z"
     },
     {
       "id": "wd-nvidia-NVIDIAExternalCareerSite-JR2026089",
@@ -769,7 +868,7 @@
       "tags": [],
       "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/China-Shanghai/Senior-System-GPU-Performance-Engineer_JR2026089",
       "description": "",
-      "date": "2026-10-01T03:23:08.652Z"
+      "date": "2026-09-30T12:09:17.390Z"
     },
     {
       "id": "wd-nvidia-NVIDIAExternalCareerSite-JR1998674",
@@ -780,106 +879,183 @@
       "tags": [],
       "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Poland-Warsaw/Senior-Software-Verification-Engineer_JR1998674",
       "description": "",
-      "date": "2026-10-01T03:23:08.652Z"
+      "date": "2026-09-30T12:09:17.390Z"
     },
     {
-      "id": "wd-nvidia-NVIDIAExternalCareerSite-JR2020224",
-      "source": "Company · NVIDIA",
-      "title": "Relational Foundation Model Engineer, Modern Data Stack",
-      "company": "NVIDIA",
-      "location": "5 Locations",
+      "id": "wd-salesforce-External_Career_Site-JR355710",
+      "source": "Company · Salesforce",
+      "title": "Mid Market Account Executive",
+      "company": "Salesforce",
+      "location": "United Kingdom - London",
       "tags": [],
-      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Germany-Munich/Relational-Foundation-Model-Engineer--Modern-Data-Stack_JR2020224",
+      "url": "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/United-Kingdom---London/Mid-Market-Account-Executive_JR355710",
       "description": "",
-      "date": "2026-10-01T03:23:08.652Z"
+      "date": "2026-10-01T12:09:16.074Z"
     },
     {
-      "id": "wd-nvidia-NVIDIAExternalCareerSite-JR2016538",
-      "source": "Company · NVIDIA",
-      "title": "Software QA Engineer",
-      "company": "NVIDIA",
-      "location": "Israel, Yokneam",
-      "tags": [],
-      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Israel-Yokneam/Software-QA-Engineer_JR2016538-1",
-      "description": "",
-      "date": "2026-10-01T03:23:08.652Z"
-    },
-    {
-      "id": "wd-nvidia-NVIDIAExternalCareerSite-JR2021723",
-      "source": "Company · NVIDIA",
-      "title": "Senior System Software Engineer - Video",
-      "company": "NVIDIA",
+      "id": "wd-salesforce-External_Career_Site-JR357552",
+      "source": "Company · Salesforce",
+      "title": "Salesforce Solution Architect (Healthcare or Health Cloud exp mandatory)",
+      "company": "Salesforce",
       "location": "3 Locations",
       "tags": [],
-      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/India-Bengaluru/Senior-System-Software-Engineer_JR2021723",
+      "url": "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/India---Bangalore/Salesforce-Solution-Architect--Healthcare-or-Health-Cloud-exp-mandatory-_JR357552",
       "description": "",
-      "date": "2026-10-01T03:23:08.652Z"
+      "date": "2026-10-01T12:09:16.074Z"
     },
     {
-      "id": "wd-nvidia-NVIDIAExternalCareerSite-JR2007944",
-      "source": "Company · NVIDIA",
-      "title": "Senior Full-Stack Software Engineer, Storage Management Platform - DGX Cloud",
-      "company": "NVIDIA",
+      "id": "wd-salesforce-External_Career_Site-JR341087",
+      "source": "Company · Salesforce",
+      "title": "Associate proactive Monitoring Engineer",
+      "company": "Salesforce",
+      "location": "India - Hyderabad",
+      "tags": [],
+      "url": "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/India---Hyderabad/Associate-proactive-Monitoring-Engineer_JR341087-2",
+      "description": "",
+      "date": "2026-10-01T12:09:16.074Z"
+    },
+    {
+      "id": "wd-salesforce-External_Career_Site-JR356515",
+      "source": "Company · Salesforce",
+      "title": "Associate Technical Support Engineer",
+      "company": "Salesforce",
+      "location": "India - Hyderabad",
+      "tags": [],
+      "url": "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/India---Hyderabad/Associate-Technical-Support-Engineer_JR356515",
+      "description": "",
+      "date": "2026-10-01T12:09:16.074Z"
+    },
+    {
+      "id": "wd-salesforce-External_Career_Site-JR356373",
+      "source": "Company · Salesforce",
+      "title": "Manager, Accounting - Compensation and Benefits",
+      "company": "Salesforce",
+      "location": "Singapore - Singapore",
+      "tags": [],
+      "url": "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/Singapore---Singapore/Manager--Accounting_JR356373",
+      "description": "",
+      "date": "2026-10-01T12:09:16.074Z"
+    },
+    {
+      "id": "wd-salesforce-External_Career_Site-JR359655",
+      "source": "Company · Salesforce",
+      "title": "Enterprise Account Executive - HLS",
+      "company": "Salesforce",
+      "location": "Germany - Munich",
+      "tags": [],
+      "url": "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/Germany---Munich/Enterprise-Account-Executive---HLS_JR359655",
+      "description": "",
+      "date": "2026-10-01T12:09:16.074Z"
+    },
+    {
+      "id": "wd-salesforce-External_Career_Site-JR360898",
+      "source": "Company · Salesforce",
+      "title": "Named Account Executive - Water & Utilities",
+      "company": "Salesforce",
+      "location": "United Kingdom - London",
+      "tags": [],
+      "url": "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/United-Kingdom---London/Named-Account-Executive---Water---Utilities_JR360898",
+      "description": "",
+      "date": "2026-10-01T12:09:16.074Z"
+    },
+    {
+      "id": "wd-salesforce-External_Career_Site-JR357909",
+      "source": "Company · Salesforce",
+      "title": "Small Business UKI Account Executive - English Speaker",
+      "company": "Salesforce",
+      "location": "Ireland - Dublin",
+      "tags": [],
+      "url": "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/Ireland---Dublin/Small-Business-UKI-Account-Executive---English-Speaker_JR357909-1",
+      "description": "",
+      "date": "2026-10-01T12:09:16.074Z"
+    },
+    {
+      "id": "wd-salesforce-External_Career_Site-JR362152",
+      "source": "Company · Salesforce",
+      "title": "Sales Strategy Manager",
+      "company": "Salesforce",
+      "location": "India - Bangalore",
+      "tags": [],
+      "url": "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/India---Bangalore/Sales-Strategy-Manager_JR362152",
+      "description": "",
+      "date": "2026-10-01T12:09:16.074Z"
+    },
+    {
+      "id": "wd-salesforce-External_Career_Site-JR353944",
+      "source": "Company · Salesforce",
+      "title": "Technical Support Engineer - Commerce Cloud",
+      "company": "Salesforce",
       "location": "2 Locations",
       "tags": [],
-      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Software-Engineer--Kubernetes-and-Virtualization---DGX-Cloud_JR2007944",
+      "url": "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/India---Hyderabad/Technical-Support-Engineer---Commerce-Cloud_JR353944-1",
       "description": "",
-      "date": "2026-10-01T03:23:08.652Z"
+      "date": "2026-10-01T12:09:16.074Z"
     },
     {
-      "id": "wd-nvidia-NVIDIAExternalCareerSite-JR1996987",
-      "source": "Company · NVIDIA",
-      "title": "Senior Systems Software Engineer - GPU Performance at Scale",
-      "company": "NVIDIA",
-      "location": "5 Locations",
+      "id": "wd-salesforce-External_Career_Site-JR360688",
+      "source": "Company · Salesforce",
+      "title": "Cloud Account Executive",
+      "company": "Salesforce",
+      "location": "Brazil - Sao Paulo",
       "tags": [],
-      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Performance-Engineer_JR1996987",
+      "url": "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/Brazil---Sao-Paulo/Cloud-Account-Executive_JR360688-1",
       "description": "",
-      "date": "2026-10-01T03:23:08.652Z"
+      "date": "2026-10-01T12:09:16.074Z"
     },
     {
-      "id": "wd-nvidia-NVIDIAExternalCareerSite-JR2026084",
-      "source": "Company · NVIDIA",
-      "title": "Software Engineer - Python, C++, Video Algorithms",
-      "company": "NVIDIA",
-      "location": "2 Locations",
+      "id": "wd-salesforce-External_Career_Site-JR360687",
+      "source": "Company · Salesforce",
+      "title": "Cloud Account Executive",
+      "company": "Salesforce",
+      "location": "Brazil - Sao Paulo",
       "tags": [],
-      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Israel-Yokneam/Software-Engineer---Python--C----Video-Algorithms_JR2026084-9",
+      "url": "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/Brazil---Sao-Paulo/Cloud-Account-Executive_JR360687",
       "description": "",
-      "date": "2026-10-01T03:23:08.652Z"
+      "date": "2026-10-01T12:09:16.074Z"
     },
     {
-      "id": "wd-nvidia-NVIDIAExternalCareerSite-JR2024717",
-      "source": "Company · NVIDIA",
-      "title": "Senior Technical Program Manager - Tegra",
-      "company": "NVIDIA",
-      "location": "US, CA, Santa Clara",
+      "id": "wd-salesforce-External_Career_Site-JR362353",
+      "source": "Company · Salesforce",
+      "title": "Principal Executive Assistant to President & CEO, JAPAC",
+      "company": "Salesforce",
+      "location": "Singapore - Singapore",
       "tags": [],
-      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Technical-Program-Manager---Tegra_JR2024717",
+      "url": "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/Singapore---Singapore/Principal-Executive-Assistant-to-President---CEO--JAPAC_JR362353",
       "description": "",
-      "date": "2026-10-01T03:23:08.652Z"
+      "date": "2026-10-01T12:09:16.074Z"
     },
     {
-      "id": "wd-nvidia-NVIDIAExternalCareerSite-JR2025704",
-      "source": "Company · NVIDIA",
-      "title": "Senior Platform Software Engineer, DriveAV - Autonomous Vehicles",
-      "company": "NVIDIA",
-      "location": "India, Bengaluru",
+      "id": "wd-salesforce-External_Career_Site-JR357893",
+      "source": "Company · Salesforce",
+      "title": "Software Engineering PMTS - Cloud Security - Hyderabad",
+      "company": "Salesforce",
+      "location": "India - Hyderabad",
       "tags": [],
-      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/India-Bengaluru/Senior-Platform-Software-Engineer--DriveAV---Autonomous-Vehicles_JR2025704",
+      "url": "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/India---Hyderabad/Software-Engineering-PMTS---Cloud-Security---Hyderabad_JR357893",
       "description": "",
-      "date": "2026-10-01T03:23:08.652Z"
+      "date": "2026-10-01T12:09:16.074Z"
     },
     {
-      "id": "wd-nvidia-NVIDIAExternalCareerSite-JR2026359",
-      "source": "Company · NVIDIA",
-      "title": "Strategy and Operations Lead, IT",
-      "company": "NVIDIA",
-      "location": "US, CA, Santa Clara",
+      "id": "wd-salesforce-External_Career_Site-JR360172",
+      "source": "Company · Salesforce",
+      "title": "Associate Market Researcher【障害者採用】",
+      "company": "Salesforce",
+      "location": "Japan - Tokyo",
       "tags": [],
-      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Strategy-and-Operations-Lead--IT_JR2026359",
+      "url": "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/Japan---Tokyo/Associate-Market-Researcher--_JR360172",
       "description": "",
-      "date": "2026-09-30T03:23:08.652Z"
+      "date": "2026-10-01T12:09:16.074Z"
+    },
+    {
+      "id": "wd-salesforce-External_Career_Site-JR362308",
+      "source": "Company · Salesforce",
+      "title": "Cloud Account Executive - Agentforce (Taiwan)",
+      "company": "Salesforce",
+      "location": "Taiwan - Remote",
+      "tags": [],
+      "url": "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/Taiwan---Remote/Cloud-Account-Executive---Agentforce--Taiwan-_JR362308",
+      "description": "",
+      "date": "2026-10-01T12:09:16.074Z"
     },
     {
       "id": "wd-salesforce-External_Career_Site-JR362322",
@@ -890,7 +1066,7 @@
       "tags": [],
       "url": "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/California---San-Francisco/Chief-Revenue-Officer--Process-Transformation_JR362322-1",
       "description": "",
-      "date": "2026-10-01T03:23:07.082Z"
+      "date": "2026-09-30T12:09:16.074Z"
     },
     {
       "id": "wd-salesforce-External_Career_Site-JR362087",
@@ -901,7 +1077,7 @@
       "tags": [],
       "url": "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/Netherlands---Amsterdam/Enterprise-Account-Executive---Informatica---Amsterdam_JR362087-1",
       "description": "",
-      "date": "2026-10-01T03:23:07.082Z"
+      "date": "2026-10-01T12:09:16.074Z"
     },
     {
       "id": "wd-salesforce-External_Career_Site-JR362298",
@@ -912,7 +1088,7 @@
       "tags": [],
       "url": "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/California---San-Francisco/Sr-Director--Ecosystem_JR362298",
       "description": "",
-      "date": "2026-10-01T03:23:07.082Z"
+      "date": "2026-09-30T12:09:16.074Z"
     },
     {
       "id": "wd-salesforce-External_Career_Site-JR362296",
@@ -923,7 +1099,7 @@
       "tags": [],
       "url": "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/Texas---Dallas-Metro---Remote/GTM-Builder_JR362296",
       "description": "",
-      "date": "2026-10-01T03:23:07.082Z"
+      "date": "2026-09-30T12:09:16.074Z"
     },
     {
       "id": "wd-salesforce-External_Career_Site-JR362294",
@@ -934,7 +1110,7 @@
       "tags": [],
       "url": "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/California---San-Francisco-Metro---Remote/GTM-Builder--Distinguished-SE_JR362294",
       "description": "",
-      "date": "2026-10-01T03:23:07.082Z"
+      "date": "2026-09-30T12:09:16.676Z"
     },
     {
       "id": "wd-salesforce-External_Career_Site-JR350347",
@@ -945,7 +1121,7 @@
       "tags": [],
       "url": "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/Netherlands---Amsterdam/Account-Executive---Enterprise---Utilities-and-Semi-Condutor_JR350347",
       "description": "",
-      "date": "2026-10-01T03:23:07.082Z"
+      "date": "2026-10-01T12:09:16.676Z"
     },
     {
       "id": "wd-salesforce-External_Career_Site-JR362282",
@@ -956,7 +1132,7 @@
       "tags": [],
       "url": "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/Ireland---Dublin/Prime-Named-Account-Executive_JR362282",
       "description": "",
-      "date": "2026-10-01T03:23:07.082Z"
+      "date": "2026-10-01T12:09:16.676Z"
     },
     {
       "id": "wd-salesforce-External_Career_Site-JR343654",
@@ -967,7 +1143,7 @@
       "tags": [],
       "url": "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/California---Remote/Qualified-Account-Executive_JR343654-1",
       "description": "",
-      "date": "2026-10-01T03:23:07.082Z"
+      "date": "2026-09-30T12:09:16.676Z"
     },
     {
       "id": "wd-salesforce-External_Career_Site-JR356314",
@@ -978,7 +1154,7 @@
       "tags": [],
       "url": "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/Canada---Montreal-Metro---Remote/Enterprise-Account-Executive--Agentforce---Data-360_JR356314",
       "description": "",
-      "date": "2026-10-01T03:23:07.082Z"
+      "date": "2026-09-30T12:09:16.676Z"
     },
     {
       "id": "wd-salesforce-External_Career_Site-JR350054",
@@ -989,7 +1165,7 @@
       "tags": [],
       "url": "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/California---Remote/Penetration-Testing-Engineer--MTS_JR350054",
       "description": "",
-      "date": "2026-10-01T03:23:07.082Z"
+      "date": "2026-09-30T12:09:16.676Z"
     },
     {
       "id": "wd-salesforce-External_Career_Site-JR352223",
@@ -1000,7 +1176,7 @@
       "tags": [],
       "url": "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/Virginia---Mclean/Forward-Deployed-Engineer--FDE----Public-Sector--Nonprofit---Education_JR352223",
       "description": "",
-      "date": "2026-10-01T03:23:07.082Z"
+      "date": "2026-09-30T12:09:16.676Z"
     },
     {
       "id": "wd-salesforce-External_Career_Site-JR343618",
@@ -1011,7 +1187,7 @@
       "tags": [],
       "url": "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/California---Remote/Senior---Lead---Principal-Software-Engineer---Foundations-Team--Infrastructure-Platform-_JR343618",
       "description": "",
-      "date": "2026-10-01T03:23:07.082Z"
+      "date": "2026-09-30T12:09:16.676Z"
     },
     {
       "id": "wd-salesforce-External_Career_Site-JR352189",
@@ -1022,7 +1198,7 @@
       "tags": [],
       "url": "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/Virginia---Mclean/Deployment-Strategist---Public-Sector--Nonprofit---Education_JR352189",
       "description": "",
-      "date": "2026-10-01T03:23:07.082Z"
+      "date": "2026-09-30T12:09:16.676Z"
     },
     {
       "id": "wd-salesforce-External_Career_Site-JR362256",
@@ -1033,7 +1209,7 @@
       "tags": [],
       "url": "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/Brazil---Remote/Technical-Architect_JR362256",
       "description": "",
-      "date": "2026-10-01T03:23:07.082Z"
+      "date": "2026-09-30T12:09:16.676Z"
     },
     {
       "id": "wd-salesforce-External_Career_Site-JR361452",
@@ -1044,7 +1220,7 @@
       "tags": [],
       "url": "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/New-York---New-York/Principal--Strategic-Solution-Engineer---Nonprofits_JR361452",
       "description": "",
-      "date": "2026-10-01T03:23:07.082Z"
+      "date": "2026-09-30T12:09:16.676Z"
     },
     {
       "id": "wd-salesforce-External_Career_Site-JR362015",
@@ -1055,7 +1231,7 @@
       "tags": [],
       "url": "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/California---San-Francisco/Senior-Manager--GTM-Growth-Strategy_JR362015",
       "description": "",
-      "date": "2026-10-01T03:23:07.082Z"
+      "date": "2026-09-30T12:09:16.676Z"
     },
     {
       "id": "wd-salesforce-External_Career_Site-JR361288",
@@ -1066,7 +1242,7 @@
       "tags": [],
       "url": "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/California---San-Francisco/Senior-Director--Data-Engineering---Slack_JR361288-1",
       "description": "",
-      "date": "2026-10-01T03:23:07.082Z"
+      "date": "2026-09-30T12:09:16.676Z"
     },
     {
       "id": "wd-salesforce-External_Career_Site-JR361721",
@@ -1077,7 +1253,7 @@
       "tags": [],
       "url": "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/California---San-Francisco/Senior-Director--Security-Engineering---Slack_JR361721-2",
       "description": "",
-      "date": "2026-10-01T03:23:07.082Z"
+      "date": "2026-09-30T12:09:16.676Z"
     },
     {
       "id": "wd-salesforce-External_Career_Site-JR346977",
@@ -1088,7 +1264,7 @@
       "tags": [],
       "url": "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/Indiana---Indianapolis/Employee-Success-Business-Partner-Director_JR346977",
       "description": "",
-      "date": "2026-10-01T03:23:07.082Z"
+      "date": "2026-09-30T12:09:16.676Z"
     },
     {
       "id": "wd-salesforce-External_Career_Site-JR359765",
@@ -1099,7 +1275,7 @@
       "tags": [],
       "url": "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/Florida---Remote/Data---AI-Practice--Architect-Director---Data-360_JR359765",
       "description": "",
-      "date": "2026-10-01T03:23:07.082Z"
+      "date": "2026-09-30T12:09:16.676Z"
     },
     {
       "id": "wd-salesforce-External_Career_Site-JR362261",
@@ -1110,7 +1286,7 @@
       "tags": [],
       "url": "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/Netherlands---Amsterdam/Cloud-Account-Executive_JR362261-1",
       "description": "",
-      "date": "2026-10-01T03:23:07.643Z"
+      "date": "2026-09-30T12:09:16.676Z"
     },
     {
       "id": "wd-salesforce-External_Career_Site-JR362321",
@@ -1121,7 +1297,7 @@
       "tags": [],
       "url": "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/Brazil---Sao-Paulo/Technical-Architect---Sr-Technical-Architect---Mulesoft_JR362321",
       "description": "",
-      "date": "2026-10-01T03:23:07.643Z"
+      "date": "2026-09-30T12:09:16.676Z"
     },
     {
       "id": "wd-salesforce-External_Career_Site-JR359867",
@@ -1132,7 +1308,7 @@
       "tags": [],
       "url": "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/California---San-Francisco/Director-of-Software-Engineering--Data-_JR359867",
       "description": "",
-      "date": "2026-10-01T03:23:07.643Z"
+      "date": "2026-09-30T12:09:16.676Z"
     },
     {
       "id": "wd-salesforce-External_Career_Site-JR362056",
@@ -1143,183 +1319,7 @@
       "tags": [],
       "url": "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/Washington---Seattle/Manager--Social-Content---Influence-Strategy_JR362056",
       "description": "",
-      "date": "2026-10-01T03:23:07.643Z"
-    },
-    {
-      "id": "wd-salesforce-External_Career_Site-JR359226",
-      "source": "Company · Salesforce",
-      "title": "Manager, Internal Audit Quality, Strategy & Transformation (Professional Practices)",
-      "company": "Salesforce",
-      "location": "4 Locations",
-      "tags": [],
-      "url": "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/Indiana---Indianapolis/Internal-Audit-Manager---Quality---Operations_JR359226",
-      "description": "",
-      "date": "2026-10-01T03:23:07.643Z"
-    },
-    {
-      "id": "wd-salesforce-External_Career_Site-JR353172",
-      "source": "Company · Salesforce",
-      "title": "Solutions Architect, Salesforce Migrations (Data360, Revenue, Tableau, or Marketing Clouds)",
-      "company": "Salesforce",
-      "location": "3 Locations",
-      "tags": [],
-      "url": "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/Canada---Toronto/Senior-Lead-Solutions-Architect--Salesforce-Migrations_JR353172",
-      "description": "",
-      "date": "2026-10-01T03:23:07.643Z"
-    },
-    {
-      "id": "wd-salesforce-External_Career_Site-JR361481",
-      "source": "Company · Salesforce",
-      "title": "Program & Content Operations Analyst",
-      "company": "Salesforce",
-      "location": "Mexico - Mexico City",
-      "tags": [],
-      "url": "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/Mexico---Mexico-City/Program---Content-Operations-Analyst_JR361481",
-      "description": "",
-      "date": "2026-10-01T03:23:07.643Z"
-    },
-    {
-      "id": "wd-salesforce-External_Career_Site-JR338546",
-      "source": "Company · Salesforce",
-      "title": "Named Account Executive, Aerospace and Defense",
-      "company": "Salesforce",
-      "location": "Virginia - Mclean",
-      "tags": [],
-      "url": "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/Virginia---Mclean/Named-Account-Executive--Aerospace-and-Defense_JR338546",
-      "description": "",
-      "date": "2026-10-01T03:23:07.643Z"
-    },
-    {
-      "id": "wd-salesforce-External_Career_Site-JR361231",
-      "source": "Company · Salesforce",
-      "title": "LATAM Internship Program | Scale Program LATAM Intern [Colombia]",
-      "company": "Salesforce",
-      "location": "Colombia - Bogota",
-      "tags": [],
-      "url": "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/Colombia---Bogota/LATAM-Internship-Program---Scale-Program-LATAM-Intern--Colombia-_JR361231-1",
-      "description": "",
-      "date": "2026-10-01T03:23:07.643Z"
-    },
-    {
-      "id": "wd-salesforce-External_Career_Site-JR356257",
-      "source": "Company · Salesforce",
-      "title": "Offer Development Senior Manager",
-      "company": "Salesforce",
-      "location": "Illinois - Chicago",
-      "tags": [],
-      "url": "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/Illinois---Chicago/CSG-Product-Senior-Manager_JR356257-1",
-      "description": "",
-      "date": "2026-10-01T03:23:07.643Z"
-    },
-    {
-      "id": "wd-salesforce-External_Career_Site-JR359438",
-      "source": "Company · Salesforce",
-      "title": "Senior/Lead Full Stack Software Engineer",
-      "company": "Salesforce",
-      "location": "4 Locations",
-      "tags": [],
-      "url": "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/California---San-Francisco/Senior-Lead-Full-Stack-Software-Engineer_JR359438-1",
-      "description": "",
-      "date": "2026-10-01T03:23:07.643Z"
-    },
-    {
-      "id": "wd-salesforce-External_Career_Site-JR358867",
-      "source": "Company · Salesforce",
-      "title": "Business Planning & Operations Lead, Agentforce Operations",
-      "company": "Salesforce",
-      "location": "6 Locations",
-      "tags": [],
-      "url": "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/California---San-Francisco/Business-Planning---Operations-Lead--Agentforce-Operations_JR358867-1",
-      "description": "",
-      "date": "2026-10-01T03:23:07.643Z"
-    },
-    {
-      "id": "wd-salesforce-External_Career_Site-JR352407",
-      "source": "Company · Salesforce",
-      "title": "Sr. Director - Software Engineering",
-      "company": "Salesforce",
-      "location": "California - San Francisco",
-      "tags": [],
-      "url": "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/California---San-Francisco/Sr-Director---Software-Engineering_JR352407",
-      "description": "",
-      "date": "2026-10-01T03:23:07.643Z"
-    },
-    {
-      "id": "wd-salesforce-External_Career_Site-JR362141",
-      "source": "Company · Salesforce",
-      "title": "Sr. Product Owner",
-      "company": "Salesforce",
-      "location": "3 Locations",
-      "tags": [],
-      "url": "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/Washington---Seattle/Sr-Product-Owner_JR362141",
-      "description": "",
-      "date": "2026-10-01T03:23:07.643Z"
-    },
-    {
-      "id": "wd-salesforce-External_Career_Site-JR362284",
-      "source": "Company · Salesforce",
-      "title": "Sr. DevOps Engineer / DevOps Architect",
-      "company": "Salesforce",
-      "location": "5 Locations",
-      "tags": [],
-      "url": "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/Ohio---Remote/Sr-DevOps-Engineer---DevOps-Architect_JR362284",
-      "description": "",
-      "date": "2026-10-01T03:23:07.643Z"
-    },
-    {
-      "id": "wd-salesforce-External_Career_Site-JR362139",
-      "source": "Company · Salesforce",
-      "title": "Product Strategy Senior Lead",
-      "company": "Salesforce",
-      "location": "3 Locations",
-      "tags": [],
-      "url": "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/Washington---Seattle/Product-Strategy-Senior-Lead_JR362139",
-      "description": "",
-      "date": "2026-10-01T03:23:07.643Z"
-    },
-    {
-      "id": "wd-salesforce-External_Career_Site-JR349466",
-      "source": "Company · Salesforce",
-      "title": "Forward Deployed Engineer (FDE) (Mid/Senior Level)",
-      "company": "Salesforce",
-      "location": "32 Locations",
-      "tags": [],
-      "url": "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/California---San-Francisco/Forward-Deployed-Engineer--All-Levels-_JR349466",
-      "description": "",
-      "date": "2026-10-01T03:23:07.643Z"
-    },
-    {
-      "id": "wd-salesforce-External_Career_Site-JR349478",
-      "source": "Company · Salesforce",
-      "title": "Portfolio Leader (Manager/Director Levels)",
-      "company": "Salesforce",
-      "location": "28 Locations",
-      "tags": [],
-      "url": "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/California---San-Francisco/Portfolio-Leader--Manager-Sr-Manager-Director-_JR349478",
-      "description": "",
-      "date": "2026-10-01T03:23:07.643Z"
-    },
-    {
-      "id": "wd-salesforce-External_Career_Site-JR349467",
-      "source": "Company · Salesforce",
-      "title": "Deployment Strategist (Mid/Senior Levels)",
-      "company": "Salesforce",
-      "location": "28 Locations",
-      "tags": [],
-      "url": "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/California---San-Francisco/Deployment-Strategist--All-Levels-_JR349467",
-      "description": "",
-      "date": "2026-10-01T03:23:07.643Z"
-    },
-    {
-      "id": "wd-salesforce-External_Career_Site-JR361157",
-      "source": "Company · Salesforce",
-      "title": "Manager, Technical Consulting (Salesforce Lifesciences exp mandatory)",
-      "company": "Salesforce",
-      "location": "2 Locations",
-      "tags": [],
-      "url": "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/India---Hyderabad/Manager--Technical-Consulting--Salesforce-Lifesciences-exp-mandatory-_JR361157",
-      "description": "",
-      "date": "2026-10-01T03:23:07.643Z"
+      "date": "2026-09-30T12:09:16.676Z"
     },
     {
       "id": "wd-adobe-external_experienced-R172124",
@@ -1330,7 +1330,7 @@
       "tags": [],
       "url": "https://adobe.wd5.myworkdayjobs.com/external_experienced/job/San-Jose/Sr-Technology-Compliance-Product-Owner_R172124",
       "description": "",
-      "date": "2026-10-01T03:23:07.364Z"
+      "date": "2026-09-30T12:09:16.254Z"
     },
     {
       "id": "wd-adobe-external_experienced-R171707",
@@ -1341,7 +1341,7 @@
       "tags": [],
       "url": "https://adobe.wd5.myworkdayjobs.com/external_experienced/job/New-York/Group-Manager--Product-Marketing_R171707",
       "description": "",
-      "date": "2026-10-01T03:23:07.364Z"
+      "date": "2026-09-30T12:09:16.254Z"
     },
     {
       "id": "wd-adobe-external_experienced-R171637",
@@ -1352,7 +1352,7 @@
       "tags": [],
       "url": "https://adobe.wd5.myworkdayjobs.com/external_experienced/job/San-Jose/Program-Manager--IT-_R171637",
       "description": "",
-      "date": "2026-09-30T03:23:07.364Z"
+      "date": "2026-09-29T12:09:16.254Z"
     },
     {
       "id": "wd-adobe-external_experienced-R172256",
@@ -1363,7 +1363,7 @@
       "tags": [],
       "url": "https://adobe.wd5.myworkdayjobs.com/external_experienced/job/Lehi/Senior-Manager--Deal-Desk-Strategy-and-Reporting_R172256",
       "description": "",
-      "date": "2026-09-30T03:23:07.364Z"
+      "date": "2026-09-29T12:09:16.254Z"
     },
     {
       "id": "wd-adobe-external_experienced-R171875",
@@ -1374,7 +1374,7 @@
       "tags": [],
       "url": "https://adobe.wd5.myworkdayjobs.com/external_experienced/job/San-Jose/Staff-Security-Data-Engineer_R171875-1",
       "description": "",
-      "date": "2026-09-29T03:23:07.365Z"
+      "date": "2026-09-28T12:09:16.254Z"
     },
     {
       "id": "wd-adobe-external_experienced-R171447",
@@ -1385,7 +1385,7 @@
       "tags": [],
       "url": "https://adobe.wd5.myworkdayjobs.com/external_experienced/job/San-Jose/Forward-Deployed-Engineer_R171447-1",
       "description": "",
-      "date": "2026-09-25T03:23:07.365Z"
+      "date": "2026-09-24T12:09:16.254Z"
     },
     {
       "id": "wd-adobe-external_experienced-R171555",
@@ -1396,7 +1396,7 @@
       "tags": [],
       "url": "https://adobe.wd5.myworkdayjobs.com/external_experienced/job/San-Jose/Senior-Engineering-Program-Manager_R171555",
       "description": "",
-      "date": "2026-09-23T03:23:07.365Z"
+      "date": "2026-09-22T12:09:16.254Z"
     },
     {
       "id": "wd-adobe-external_experienced-R171834",
@@ -1407,7 +1407,7 @@
       "tags": [],
       "url": "https://adobe.wd5.myworkdayjobs.com/external_experienced/job/San-Jose/Senior-Manager--Employee-Relations_R171834",
       "description": "",
-      "date": "2026-09-22T03:23:07.365Z"
+      "date": "2026-09-21T12:09:16.254Z"
     },
     {
       "id": "wd-adobe-external_experienced-R172032",
@@ -1418,7 +1418,7 @@
       "tags": [],
       "url": "https://adobe.wd5.myworkdayjobs.com/external_experienced/job/San-Jose/Senior-Customer-Journeys-Technical-Consultant_R172032",
       "description": "",
-      "date": "2026-09-22T03:23:07.365Z"
+      "date": "2026-09-21T12:09:16.254Z"
     },
     {
       "id": "wd-adobe-external_experienced-R171850",
@@ -1429,7 +1429,7 @@
       "tags": [],
       "url": "https://adobe.wd5.myworkdayjobs.com/external_experienced/job/Bangalore/Software-Development-Engineer_R171850",
       "description": "",
-      "date": "2026-09-22T03:23:07.365Z"
+      "date": "2026-09-21T12:09:16.254Z"
     },
     {
       "id": "wd-adobe-external_experienced-R172037",
@@ -1440,7 +1440,7 @@
       "tags": [],
       "url": "https://adobe.wd5.myworkdayjobs.com/external_experienced/job/San-Jose/Senior-Data-Architect_R172037",
       "description": "",
-      "date": "2026-09-21T03:23:07.365Z"
+      "date": "2026-09-20T12:09:16.254Z"
     },
     {
       "id": "wd-adobe-external_experienced-R169918",
@@ -1451,7 +1451,7 @@
       "tags": [],
       "url": "https://adobe.wd5.myworkdayjobs.com/external_experienced/job/Bangalore/Senior-Digital-Strategist_R169918",
       "description": "",
-      "date": "2026-09-19T03:23:07.365Z"
+      "date": "2026-09-18T12:09:16.254Z"
     },
     {
       "id": "wd-adobe-external_experienced-R171355",
@@ -1462,7 +1462,7 @@
       "tags": [],
       "url": "https://adobe.wd5.myworkdayjobs.com/external_experienced/job/San-Jose/AI-Solutions-Architect--Business-Process-Optimization_R171355",
       "description": "",
-      "date": "2026-09-19T03:23:07.365Z"
+      "date": "2026-09-18T12:09:16.254Z"
     },
     {
       "id": "wd-adobe-external_experienced-R171788",
@@ -1473,7 +1473,7 @@
       "tags": [],
       "url": "https://adobe.wd5.myworkdayjobs.com/external_experienced/job/London/Head-of-Government-Relations---Public-Policy--UKI-and-Middle-East_R171788",
       "description": "",
-      "date": "2026-09-19T03:23:07.365Z"
+      "date": "2026-09-18T12:09:16.254Z"
     },
     {
       "id": "wd-adobe-external_experienced-R171633",
@@ -1484,7 +1484,7 @@
       "tags": [],
       "url": "https://adobe.wd5.myworkdayjobs.com/external_experienced/job/Lehi/Legal-Counsel_R171633-1",
       "description": "",
-      "date": "2026-09-19T03:23:07.365Z"
+      "date": "2026-09-18T12:09:16.254Z"
     },
     {
       "id": "wd-adobe-external_experienced-R171930",
@@ -1495,7 +1495,7 @@
       "tags": [],
       "url": "https://adobe.wd5.myworkdayjobs.com/external_experienced/job/Reading/Legal-Counsel_R171930",
       "description": "",
-      "date": "2026-09-19T03:23:07.365Z"
+      "date": "2026-09-18T12:09:16.254Z"
     },
     {
       "id": "wd-adobe-external_experienced-R171718",
@@ -1506,7 +1506,7 @@
       "tags": [],
       "url": "https://adobe.wd5.myworkdayjobs.com/external_experienced/job/San-Jose/Machine-Learning-Engineer_R171718",
       "description": "",
-      "date": "2026-09-19T03:23:07.365Z"
+      "date": "2026-09-18T12:09:16.254Z"
     },
     {
       "id": "wd-adobe-external_experienced-R171719",
@@ -1517,7 +1517,7 @@
       "tags": [],
       "url": "https://adobe.wd5.myworkdayjobs.com/external_experienced/job/San-Jose/Machine-Learning-Engineer_R171719",
       "description": "",
-      "date": "2026-09-19T03:23:07.365Z"
+      "date": "2026-09-18T12:09:16.254Z"
     },
     {
       "id": "wd-adobe-external_experienced-R171569",
@@ -1528,7 +1528,7 @@
       "tags": [],
       "url": "https://adobe.wd5.myworkdayjobs.com/external_experienced/job/New-York/Senior-Legal-Counsel--Privacy_R171569",
       "description": "",
-      "date": "2026-09-19T03:23:07.365Z"
+      "date": "2026-09-18T12:09:16.254Z"
     },
     {
       "id": "wd-adobe-external_experienced-R169338",
@@ -1539,7 +1539,7 @@
       "tags": [],
       "url": "https://adobe.wd5.myworkdayjobs.com/external_experienced/job/Bangalore/Senior-Manager--Advanced-People-Analytics---Reporting_R169338",
       "description": "",
-      "date": "2026-09-19T03:23:07.365Z"
+      "date": "2026-09-18T12:09:16.254Z"
     },
     {
       "id": "wd-adobe-external_experienced-R171808",
@@ -1550,7 +1550,7 @@
       "tags": [],
       "url": "https://adobe.wd5.myworkdayjobs.com/external_experienced/job/San-Jose/Senior-Manager--Digital-Monetization-Growth_R171808-1",
       "description": "",
-      "date": "2026-09-19T03:23:07.980Z"
+      "date": "2026-09-18T12:09:16.919Z"
     },
     {
       "id": "wd-adobe-external_experienced-R170344",
@@ -1561,7 +1561,7 @@
       "tags": [],
       "url": "https://adobe.wd5.myworkdayjobs.com/external_experienced/job/New-York/Software-Development-Engineer_R170344",
       "description": "",
-      "date": "2026-09-19T03:23:07.980Z"
+      "date": "2026-09-18T12:09:16.919Z"
     },
     {
       "id": "wd-adobe-external_experienced-R171604",
@@ -1572,7 +1572,7 @@
       "tags": [],
       "url": "https://adobe.wd5.myworkdayjobs.com/external_experienced/job/Lehi/Sr-Cloud-Security-Engineer_R171604",
       "description": "",
-      "date": "2026-09-19T03:23:07.980Z"
+      "date": "2026-09-18T12:09:16.919Z"
     },
     {
       "id": "wd-adobe-external_experienced-R171717",
@@ -1583,7 +1583,7 @@
       "tags": [],
       "url": "https://adobe.wd5.myworkdayjobs.com/external_experienced/job/San-Jose/Sr-Staff-Engineer_R171717",
       "description": "",
-      "date": "2026-09-19T03:23:07.980Z"
+      "date": "2026-09-18T12:09:16.919Z"
     },
     {
       "id": "wd-adobe-external_experienced-R168701",
@@ -1594,7 +1594,7 @@
       "tags": [],
       "url": "https://adobe.wd5.myworkdayjobs.com/external_experienced/job/Bucharest/Staff-Incident-Response-Commander_R168701",
       "description": "",
-      "date": "2026-09-19T03:23:07.980Z"
+      "date": "2026-09-18T12:09:16.919Z"
     },
     {
       "id": "wd-adobe-external_experienced-R171768",
@@ -1605,7 +1605,7 @@
       "tags": [],
       "url": "https://adobe.wd5.myworkdayjobs.com/external_experienced/job/San-Jose/Staff-Machine-Learning-Engineer_R171768",
       "description": "",
-      "date": "2026-09-19T03:23:07.980Z"
+      "date": "2026-09-18T12:09:16.919Z"
     },
     {
       "id": "wd-adobe-external_experienced-R171557",
@@ -1616,7 +1616,7 @@
       "tags": [],
       "url": "https://adobe.wd5.myworkdayjobs.com/external_experienced/job/Sydney/ACS-Account-Executive_R171557",
       "description": "",
-      "date": "2026-09-19T03:23:07.981Z"
+      "date": "2026-09-18T12:09:16.919Z"
     },
     {
       "id": "wd-adobe-external_experienced-R169928",
@@ -1627,7 +1627,7 @@
       "tags": [],
       "url": "https://adobe.wd5.myworkdayjobs.com/external_experienced/job/Bangalore/Enterprise-Architect_R169928",
       "description": "",
-      "date": "2026-09-19T03:23:07.981Z"
+      "date": "2026-09-18T12:09:16.919Z"
     },
     {
       "id": "wd-adobe-external_experienced-R171575",
@@ -1638,7 +1638,7 @@
       "tags": [],
       "url": "https://adobe.wd5.myworkdayjobs.com/external_experienced/job/Washington-DC/Manager--Federal-Government-Relations--Legislative-Branch-_R171575",
       "description": "",
-      "date": "2026-09-19T03:23:07.981Z"
+      "date": "2026-09-18T12:09:16.919Z"
     },
     {
       "id": "wd-adobe-external_experienced-R171398",
@@ -1649,7 +1649,7 @@
       "tags": [],
       "url": "https://adobe.wd5.myworkdayjobs.com/external_experienced/job/San-Francisco/Principal-Data-Analyst--Adobe-Stock_R171398",
       "description": "",
-      "date": "2026-09-19T03:23:07.981Z"
+      "date": "2026-09-18T12:09:16.919Z"
     },
     {
       "id": "wd-adobe-external_experienced-R170844",
@@ -1660,7 +1660,7 @@
       "tags": [],
       "url": "https://adobe.wd5.myworkdayjobs.com/external_experienced/job/San-Jose/Senior-Product-Manager--Data-Platform---Knowledge---Retrieval_R170844-1",
       "description": "",
-      "date": "2026-09-19T03:23:07.981Z"
+      "date": "2026-09-18T12:09:16.919Z"
     },
     {
       "id": "wd-adobe-external_experienced-R171542",
@@ -1671,7 +1671,7 @@
       "tags": [],
       "url": "https://adobe.wd5.myworkdayjobs.com/external_experienced/job/San-Jose/Senior-Product-Manager--Privacy-Engineering_R171542",
       "description": "",
-      "date": "2026-09-19T03:23:07.981Z"
+      "date": "2026-09-18T12:09:16.919Z"
     },
     {
       "id": "wd-adobe-external_experienced-R171678",
@@ -1682,7 +1682,7 @@
       "tags": [],
       "url": "https://adobe.wd5.myworkdayjobs.com/external_experienced/job/Noida/Software-Development-Engineer-3---Graph-Engineering_R171678-1",
       "description": "",
-      "date": "2026-09-19T03:23:07.981Z"
+      "date": "2026-09-18T12:09:16.919Z"
     },
     {
       "id": "wd-adobe-external_experienced-R171638",
@@ -1693,7 +1693,7 @@
       "tags": [],
       "url": "https://adobe.wd5.myworkdayjobs.com/external_experienced/job/San-Jose/Sr-Manager--Cyber-Threat-Research---Intelligence_R171638",
       "description": "",
-      "date": "2026-09-19T03:23:07.981Z"
+      "date": "2026-09-18T12:09:16.919Z"
     },
     {
       "id": "wd-adobe-external_experienced-R171045",
@@ -1704,7 +1704,7 @@
       "tags": [],
       "url": "https://adobe.wd5.myworkdayjobs.com/external_experienced/job/San-Jose/Staff-Machine-Learning-Engineer---ML-Frameworks_R171045",
       "description": "",
-      "date": "2026-09-19T03:23:07.981Z"
+      "date": "2026-09-18T12:09:16.919Z"
     },
     {
       "id": "wd-adobe-external_experienced-R171066",
@@ -1715,7 +1715,7 @@
       "tags": [],
       "url": "https://adobe.wd5.myworkdayjobs.com/external_experienced/job/Bangalore/Applied-Scientist-5_R171066",
       "description": "",
-      "date": "2026-09-19T03:23:07.981Z"
+      "date": "2026-09-18T12:09:16.919Z"
     },
     {
       "id": "wd-adobe-external_experienced-R171220",
@@ -1726,7 +1726,7 @@
       "tags": [],
       "url": "https://adobe.wd5.myworkdayjobs.com/external_experienced/job/San-Jose/Director-and-Associate-General-Counsel--Corporate-Legal_R171220",
       "description": "",
-      "date": "2026-09-19T03:23:07.981Z"
+      "date": "2026-09-18T12:09:16.919Z"
     },
     {
       "id": "wd-adobe-external_experienced-R171448",
@@ -1737,7 +1737,7 @@
       "tags": [],
       "url": "https://adobe.wd5.myworkdayjobs.com/external_experienced/job/San-Jose/Director-of-Technical-Accounting-and-External-Reporting--ESG-Controller_R171448",
       "description": "",
-      "date": "2026-09-19T03:23:07.981Z"
+      "date": "2026-09-18T12:09:16.919Z"
     },
     {
       "id": "wd-adobe-external_experienced-R169933",
@@ -1748,7 +1748,7 @@
       "tags": [],
       "url": "https://adobe.wd5.myworkdayjobs.com/external_experienced/job/Noida/Enterprise-Architect--Martech---AI-_R169933",
       "description": "",
-      "date": "2026-09-19T03:23:07.981Z"
+      "date": "2026-09-18T12:09:16.919Z"
     },
     {
       "id": "wd-adobe-external_experienced-R171487",
@@ -1759,7 +1759,7 @@
       "tags": [],
       "url": "https://adobe.wd5.myworkdayjobs.com/external_experienced/job/Noida/Machine-Learning-Engineer-3_R171487-1",
       "description": "",
-      "date": "2026-09-19T03:23:07.981Z"
+      "date": "2026-09-18T12:09:16.919Z"
     },
     {
       "id": "wd-hp-ExternalCareerSite-3164195",
@@ -1770,7 +1770,7 @@
       "tags": [],
       "url": "https://hp.wd5.myworkdayjobs.com/ExternalCareerSite/job/Dalian-Liaoning-China/Print-Service-Desk-Technical-Customer-Support-Engineer---Level-4_3164195",
       "description": "",
-      "date": "2026-09-01T03:23:07.368Z"
+      "date": "2026-09-01T12:09:16.319Z"
     },
     {
       "id": "wd-hp-ExternalCareerSite-3164651",
@@ -1781,7 +1781,205 @@
       "tags": [],
       "url": "https://hp.wd5.myworkdayjobs.com/ExternalCareerSite/job/Fort-Collins-Colorado-United-States-of-America/ACS-Quality-Engineer---Workstation-Products_3164651-2",
       "description": "",
-      "date": "2026-09-01T03:23:07.368Z"
+      "date": "2026-09-01T12:09:16.319Z"
+    },
+    {
+      "id": "wd-hp-ExternalCareerSite-3168452",
+      "source": "Company · HP",
+      "title": "Customer Delivery Manager",
+      "company": "HP",
+      "location": "Sofia, Sofia, Bulgaria",
+      "tags": [],
+      "url": "https://hp.wd5.myworkdayjobs.com/ExternalCareerSite/job/Sofia-Sofia-Bulgaria/Customer-Delivery-Manager_3168452-1",
+      "description": "",
+      "date": "2026-10-01T12:09:16.319Z"
+    },
+    {
+      "id": "wd-hp-ExternalCareerSite-3168451",
+      "source": "Company · HP",
+      "title": "Customer Delivery Manager",
+      "company": "HP",
+      "location": "Sofia, Sofia, Bulgaria",
+      "tags": [],
+      "url": "https://hp.wd5.myworkdayjobs.com/ExternalCareerSite/job/Sofia-Sofia-Bulgaria/Customer-Delivery-Manager_3168451-1",
+      "description": "",
+      "date": "2026-10-01T12:09:16.319Z"
+    },
+    {
+      "id": "wd-hp-ExternalCareerSite-3163510",
+      "source": "Company · HP",
+      "title": "Customer Delivery Manager",
+      "company": "HP",
+      "location": "Sofia, Sofia, Bulgaria",
+      "tags": [],
+      "url": "https://hp.wd5.myworkdayjobs.com/ExternalCareerSite/job/Sofia-Sofia-Bulgaria/Customer-Delivery-Manager_3163510-1",
+      "description": "",
+      "date": "2026-10-01T12:09:16.319Z"
+    },
+    {
+      "id": "wd-hp-ExternalCareerSite-3164608",
+      "source": "Company · HP",
+      "title": "Senior SW Engineer",
+      "company": "HP",
+      "location": "Ness Ziona, Center District, Israel",
+      "tags": [],
+      "url": "https://hp.wd5.myworkdayjobs.com/ExternalCareerSite/job/Ness-Ziona-Center-District-Israel/Senior-SW-Engineer_3164608-1",
+      "description": "",
+      "date": "2026-10-01T12:09:16.319Z"
+    },
+    {
+      "id": "wd-hp-ExternalCareerSite-3168277",
+      "source": "Company · HP",
+      "title": "Solutions Program Manager",
+      "company": "HP",
+      "location": "Singapore, South West, Singapore",
+      "tags": [],
+      "url": "https://hp.wd5.myworkdayjobs.com/ExternalCareerSite/job/Singapore-South-West-Singapore/Solutions-Program-Manager_3168277-1",
+      "description": "",
+      "date": "2026-10-01T12:09:16.319Z"
+    },
+    {
+      "id": "wd-hp-ExternalCareerSite-3168663",
+      "source": "Company · HP",
+      "title": "Customer Delivery Manager",
+      "company": "HP",
+      "location": "Sofia, Sofia, Bulgaria",
+      "tags": [],
+      "url": "https://hp.wd5.myworkdayjobs.com/ExternalCareerSite/job/Sofia-Sofia-Bulgaria/Customer-Delivery-Manager_3168663-1",
+      "description": "",
+      "date": "2026-10-01T12:09:16.319Z"
+    },
+    {
+      "id": "wd-hp-ExternalCareerSite-3168701",
+      "source": "Company · HP",
+      "title": "Quality Program Manager, Commercial PC Quality, Cost & System Management",
+      "company": "HP",
+      "location": "Taipei, Taipei City, Taiwan Region",
+      "tags": [],
+      "url": "https://hp.wd5.myworkdayjobs.com/ExternalCareerSite/job/Taipei-Taipei-City-Taiwan-Region/Quality-Program-Manager--Commercial-PC-Quality--Cost---System-Management_3168701-1",
+      "description": "",
+      "date": "2026-10-01T12:09:16.319Z"
+    },
+    {
+      "id": "wd-hp-ExternalCareerSite-3167193",
+      "source": "Company · HP",
+      "title": "Program Manager, Commercial PC Quality, Cost & System Management",
+      "company": "HP",
+      "location": "Taipei, Taipei City, Taiwan Region",
+      "tags": [],
+      "url": "https://hp.wd5.myworkdayjobs.com/ExternalCareerSite/job/Taipei-Taipei-City-Taiwan-Region/Program-Manager--Commercial-PC-Quality--Cost---System-Management_3167193-2",
+      "description": "",
+      "date": "2026-10-01T12:09:16.319Z"
+    },
+    {
+      "id": "wd-hp-ExternalCareerSite-3165730",
+      "source": "Company · HP",
+      "title": "Supply Chain Program Manager",
+      "company": "HP",
+      "location": "Taipei, Taipei City, Taiwan Region",
+      "tags": [],
+      "url": "https://hp.wd5.myworkdayjobs.com/ExternalCareerSite/job/Taipei-Taipei-City-Taiwan-Region/Supply-Chain-Program-Manager_3165730-1",
+      "description": "",
+      "date": "2026-10-01T12:09:16.319Z"
+    },
+    {
+      "id": "wd-hp-ExternalCareerSite-3165806",
+      "source": "Company · HP",
+      "title": "Procurement Operations Analyst, Buy-Sell Procurement",
+      "company": "HP",
+      "location": "Taipei, Taipei City, Taiwan Region",
+      "tags": [],
+      "url": "https://hp.wd5.myworkdayjobs.com/ExternalCareerSite/job/Taipei-Taipei-City-Taiwan-Region/Procurement-Operations-Analyst--Buy-Sell-Procurement_3165806-1",
+      "description": "",
+      "date": "2026-10-01T12:09:16.319Z"
+    },
+    {
+      "id": "wd-hp-ExternalCareerSite-3168882",
+      "source": "Company · HP",
+      "title": "Engineer Strategy Program Manager, Commercial Personal Systems",
+      "company": "HP",
+      "location": "Taipei, Taipei City, Taiwan Region",
+      "tags": [],
+      "url": "https://hp.wd5.myworkdayjobs.com/ExternalCareerSite/job/Taipei-Taipei-City-Taiwan-Region/Engineer-Strategy-Program-Manager--Commercial-Personal-Systems_3168882-2",
+      "description": "",
+      "date": "2026-10-01T12:09:16.319Z"
+    },
+    {
+      "id": "wd-hp-ExternalCareerSite-3165390",
+      "source": "Company · HP",
+      "title": "Financial Analyst 1",
+      "company": "HP",
+      "location": "Bengaluru, Karnataka, India",
+      "tags": [],
+      "url": "https://hp.wd5.myworkdayjobs.com/ExternalCareerSite/job/Bengaluru-Karnataka-India/Financial-Analyst-1_3165390",
+      "description": "",
+      "date": "2026-10-01T12:09:16.319Z"
+    },
+    {
+      "id": "wd-hp-ExternalCareerSite-3166977",
+      "source": "Company · HP",
+      "title": "Business & Operations Analyst",
+      "company": "HP",
+      "location": "Bengaluru, Karnātaka, India",
+      "tags": [],
+      "url": "https://hp.wd5.myworkdayjobs.com/ExternalCareerSite/job/Bengaluru-Karntaka-India/Business---Operations-Analyst_3166977-2",
+      "description": "",
+      "date": "2026-10-01T12:09:16.319Z"
+    },
+    {
+      "id": "wd-hp-ExternalCareerSite-3166505",
+      "source": "Company · HP",
+      "title": "Inside Sales Representative, Australia Market",
+      "company": "HP",
+      "location": "Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, Malaysia",
+      "tags": [],
+      "url": "https://hp.wd5.myworkdayjobs.com/ExternalCareerSite/job/Kuala-Lumpur-Wilayah-Persekutuan-Kuala-Lumpur-Malaysia/Inside-Sales-Representative--Australia-Market_3166505-1",
+      "description": "",
+      "date": "2026-10-01T12:09:16.319Z"
+    },
+    {
+      "id": "wd-hp-ExternalCareerSite-3167210",
+      "source": "Company · HP",
+      "title": "Mechanical Engineer (Phetchaburi-Based)",
+      "company": "HP",
+      "location": "Khao Yoi, Phetchaburi, Thailand",
+      "tags": [],
+      "url": "https://hp.wd5.myworkdayjobs.com/ExternalCareerSite/job/Khao-Yoi-Phetchaburi-Thailand/Mechanical-Engineer--Phetchaburi-Based-_3167210-1",
+      "description": "",
+      "date": "2026-10-01T12:09:16.319Z"
+    },
+    {
+      "id": "wd-hp-ExternalCareerSite-3169209",
+      "source": "Company · HP",
+      "title": "Global Service Supplier Manager",
+      "company": "HP",
+      "location": "Taipei, Taipei City, Taiwan Region",
+      "tags": [],
+      "url": "https://hp.wd5.myworkdayjobs.com/ExternalCareerSite/job/Taipei-Taipei-City-Taiwan-Region/Global-Service-Supplier-Manager_3169209-1",
+      "description": "",
+      "date": "2026-10-01T12:09:16.319Z"
+    },
+    {
+      "id": "wd-hp-ExternalCareerSite-3168991",
+      "source": "Company · HP",
+      "title": "Strategic Account Manager - GCC",
+      "company": "HP",
+      "location": "Mumbai, Maharashtra, India",
+      "tags": [],
+      "url": "https://hp.wd5.myworkdayjobs.com/ExternalCareerSite/job/Mumbai-Maharashtra-India/Strategic-Account-Manager---GCC_3168991-1",
+      "description": "",
+      "date": "2026-09-30T12:09:16.319Z"
+    },
+    {
+      "id": "wd-hp-ExternalCareerSite-UNI4557",
+      "source": "Company · HP",
+      "title": "HP Spark Management Associate - New Product Introduction Engineer",
+      "company": "HP",
+      "location": "Singapore, South West, Singapore",
+      "tags": [],
+      "url": "https://hp.wd5.myworkdayjobs.com/ExternalCareerSite/job/Singapore-South-West-Singapore/HP-Spark-Management-Associate---New-Product-Introduction-Engineer_UNI4557-1",
+      "description": "",
+      "date": "2026-09-30T12:09:16.319Z"
     },
     {
       "id": "wd-hp-ExternalCareerSite-3168043",
@@ -1792,7 +1990,7 @@
       "tags": [],
       "url": "https://hp.wd5.myworkdayjobs.com/ExternalCareerSite/job/Ciudad-de-Mexico-Ciudad-de-Mexico-Mexico/Business-Personal-Systems-Presales-Technical-Consultant_3168043-1",
       "description": "",
-      "date": "2026-10-01T03:23:07.368Z"
+      "date": "2026-09-30T12:09:17.229Z"
     },
     {
       "id": "wd-hp-ExternalCareerSite-3169481",
@@ -1803,7 +2001,7 @@
       "tags": [],
       "url": "https://hp.wd5.myworkdayjobs.com/ExternalCareerSite/job/Batu-Kawan-Pulau-Pinang-Penang-Malaysia/College-Intern_3169481-1",
       "description": "",
-      "date": "2026-10-01T03:23:07.368Z"
+      "date": "2026-09-30T12:09:17.229Z"
     },
     {
       "id": "wd-hp-ExternalCareerSite-3169386",
@@ -1814,7 +2012,7 @@
       "tags": [],
       "url": "https://hp.wd5.myworkdayjobs.com/ExternalCareerSite/job/Spring-Texas-United-States-of-America/Business-Planning-Manager-for-Personal-Systems_3169386-2",
       "description": "",
-      "date": "2026-10-01T03:23:07.368Z"
+      "date": "2026-09-30T12:09:17.229Z"
     },
     {
       "id": "wd-hp-ExternalCareerSite-3164674",
@@ -1825,7 +2023,7 @@
       "tags": [],
       "url": "https://hp.wd5.myworkdayjobs.com/ExternalCareerSite/job/Spring-Texas-United-States-of-America/Quality-Data-Engineer_3164674",
       "description": "",
-      "date": "2026-10-01T03:23:07.368Z"
+      "date": "2026-09-30T12:09:17.229Z"
     },
     {
       "id": "wd-hp-ExternalCareerSite-3168826",
@@ -1836,7 +2034,7 @@
       "tags": [],
       "url": "https://hp.wd5.myworkdayjobs.com/ExternalCareerSite/job/Austin-Texas-United-States-of-America/Senior-Android-Linux-Firmware-Developer_3168826-1",
       "description": "",
-      "date": "2026-10-01T03:23:07.368Z"
+      "date": "2026-09-30T12:09:17.229Z"
     },
     {
       "id": "wd-hp-ExternalCareerSite-3164884",
@@ -1847,7 +2045,7 @@
       "tags": [],
       "url": "https://hp.wd5.myworkdayjobs.com/ExternalCareerSite/job/All-Cities-California-United-States-of-America/Large-Format-Printer--Field-Service-Engineer_3164884-1",
       "description": "",
-      "date": "2026-10-01T03:23:07.368Z"
+      "date": "2026-09-30T12:09:17.229Z"
     },
     {
       "id": "wd-hp-ExternalCareerSite-3169344",
@@ -1858,7 +2056,7 @@
       "tags": [],
       "url": "https://hp.wd5.myworkdayjobs.com/ExternalCareerSite/job/Corvallis-Oregon-United-States-of-America/Communications-Specialist_3169344-1",
       "description": "",
-      "date": "2026-10-01T03:23:07.368Z"
+      "date": "2026-09-30T12:09:17.229Z"
     },
     {
       "id": "wd-hp-ExternalCareerSite-3168677",
@@ -1869,18 +2067,7 @@
       "tags": [],
       "url": "https://hp.wd5.myworkdayjobs.com/ExternalCareerSite/job/Vancouver-Washington-United-States-of-America/Customer-Lifecycle-Manager_3168677-1",
       "description": "",
-      "date": "2026-10-01T03:23:07.368Z"
-    },
-    {
-      "id": "wd-hp-ExternalCareerSite-3168352",
-      "source": "Company · HP",
-      "title": "Customer Operations  Global Account",
-      "company": "HP",
-      "location": "Tlaquepaque, Jalisco, Mexico",
-      "tags": [],
-      "url": "https://hp.wd5.myworkdayjobs.com/ExternalCareerSite/job/Tlaquepaque-Jalisco-Mexico/Customer-Operations---AMS-Global-Account_3168352",
-      "description": "",
-      "date": "2026-10-01T03:23:07.368Z"
+      "date": "2026-09-30T12:09:17.229Z"
     },
     {
       "id": "wd-hp-ExternalCareerSite-3167686",
@@ -1891,7 +2078,7 @@
       "tags": [],
       "url": "https://hp.wd5.myworkdayjobs.com/ExternalCareerSite/job/Vancouver-Washington-United-States-of-America/UX-Researcher_3167686",
       "description": "",
-      "date": "2026-10-01T03:23:07.368Z"
+      "date": "2026-09-30T12:09:17.229Z"
     },
     {
       "id": "wd-hp-ExternalCareerSite-3162865",
@@ -1902,7 +2089,7 @@
       "tags": [],
       "url": "https://hp.wd5.myworkdayjobs.com/ExternalCareerSite/job/Heredia-Heredia-Costa-Rica/Customer-Delivery-Manager_3162865",
       "description": "",
-      "date": "2026-10-01T03:23:07.368Z"
+      "date": "2026-09-30T12:09:17.229Z"
     },
     {
       "id": "wd-hp-ExternalCareerSite-3167904",
@@ -1913,7 +2100,7 @@
       "tags": [],
       "url": "https://hp.wd5.myworkdayjobs.com/ExternalCareerSite/job/Spring-Texas-United-States-of-America/Engineering---Technical-Internship-Roles---HP-Solutions--HPS-_3167904-1",
       "description": "",
-      "date": "2026-10-01T03:23:07.368Z"
+      "date": "2026-09-30T12:09:17.229Z"
     },
     {
       "id": "wd-hp-ExternalCareerSite-3169150",
@@ -1924,7 +2111,7 @@
       "tags": [],
       "url": "https://hp.wd5.myworkdayjobs.com/ExternalCareerSite/job/Spring-Texas-United-States-of-America/Embedded-AI-ML-Developer_3169150-1",
       "description": "",
-      "date": "2026-10-01T03:23:07.368Z"
+      "date": "2026-09-30T12:09:17.229Z"
     },
     {
       "id": "wd-hp-ExternalCareerSite-3166268",
@@ -1935,7 +2122,7 @@
       "tags": [],
       "url": "https://hp.wd5.myworkdayjobs.com/ExternalCareerSite/job/Sant-Cugat-del-Valles-Barcelona-Spain/Mechanical-Engineering-R-D---Additive-Manufacturing_3166268-2",
       "description": "",
-      "date": "2026-10-01T03:23:07.368Z"
+      "date": "2026-09-30T12:09:17.229Z"
     },
     {
       "id": "wd-hp-ExternalCareerSite-3168791",
@@ -1946,7 +2133,7 @@
       "tags": [],
       "url": "https://hp.wd5.myworkdayjobs.com/ExternalCareerSite/job/Spring-Texas-United-States-of-America/Principal-Enterprise-Architect_3168791-1",
       "description": "",
-      "date": "2026-10-01T03:23:07.368Z"
+      "date": "2026-09-30T12:09:17.229Z"
     },
     {
       "id": "wd-hp-ExternalCareerSite-3164879",
@@ -1957,7 +2144,7 @@
       "tags": [],
       "url": "https://hp.wd5.myworkdayjobs.com/ExternalCareerSite/job/Palo-Alto-California-United-States-of-America/Worldwide-CSS-Marketing---Performance-Marketing-Lead--Tanks_3164879-1",
       "description": "",
-      "date": "2026-10-01T03:23:07.368Z"
+      "date": "2026-09-30T12:09:17.229Z"
     },
     {
       "id": "wd-hp-ExternalCareerSite-3169271",
@@ -1968,7 +2155,7 @@
       "tags": [],
       "url": "https://hp.wd5.myworkdayjobs.com/ExternalCareerSite/job/Spring-Texas-United-States-of-America/Executive-Assistant--SVP-Deputy-General-Counsel_3169271-1",
       "description": "",
-      "date": "2026-10-01T03:23:07.368Z"
+      "date": "2026-09-30T12:09:17.229Z"
     },
     {
       "id": "wd-hp-ExternalCareerSite-3169176",
@@ -1979,7 +2166,7 @@
       "tags": [],
       "url": "https://hp.wd5.myworkdayjobs.com/ExternalCareerSite/job/Mississauga-Ontario-Canada/Enterprise-Account-Executive_3169176",
       "description": "",
-      "date": "2026-10-01T03:23:07.368Z"
+      "date": "2026-09-30T12:09:17.229Z"
     },
     {
       "id": "wd-hp-ExternalCareerSite-3168709",
@@ -1990,7 +2177,7 @@
       "tags": [],
       "url": "https://hp.wd5.myworkdayjobs.com/ExternalCareerSite/job/Spring-Texas-United-States-of-America/SOM---Supplier-Operations-Manager_3168709-1",
       "description": "",
-      "date": "2026-10-01T03:23:08.218Z"
+      "date": "2026-09-30T12:09:17.229Z"
     },
     {
       "id": "wd-hp-ExternalCareerSite-3168092",
@@ -2001,7 +2188,7 @@
       "tags": [],
       "url": "https://hp.wd5.myworkdayjobs.com/ExternalCareerSite/job/All-Cities-Idaho-United-States-of-America/Configuration-Operations-Team-Lead_3168092-1",
       "description": "",
-      "date": "2026-10-01T03:23:08.218Z"
+      "date": "2026-09-30T12:09:17.229Z"
     },
     {
       "id": "wd-hp-ExternalCareerSite-3169065",
@@ -2012,194 +2199,7 @@
       "tags": [],
       "url": "https://hp.wd5.myworkdayjobs.com/ExternalCareerSite/job/Spring-Texas-United-States-of-America/XMLNAME--Agentic-AI--AI-Runtime---ML-Model-Systems-Engineer_3169065-1",
       "description": "",
-      "date": "2026-10-01T03:23:08.218Z"
-    },
-    {
-      "id": "wd-hp-ExternalCareerSite-3169067",
-      "source": "Company · HP",
-      "title": "[Agentic AI] AI Runtime & Performance Lead",
-      "company": "HP",
-      "location": "2 Locations",
-      "tags": [],
-      "url": "https://hp.wd5.myworkdayjobs.com/ExternalCareerSite/job/Spring-Texas-United-States-of-America/XMLNAME--Agentic-AI--AI-Runtime---Performance-Lead_3169067-1",
-      "description": "",
-      "date": "2026-10-01T03:23:08.218Z"
-    },
-    {
-      "id": "wd-hp-ExternalCareerSite-3167906",
-      "source": "Company · HP",
-      "title": "Software Internship Roles - HP Solutions (HPS)",
-      "company": "HP",
-      "location": "3 Locations",
-      "tags": [],
-      "url": "https://hp.wd5.myworkdayjobs.com/ExternalCareerSite/job/Spring-Texas-United-States-of-America/Software-Internship-Roles---HP-Solutions--HPS-_3167906-1",
-      "description": "",
-      "date": "2026-10-01T03:23:08.218Z"
-    },
-    {
-      "id": "wd-hp-ExternalCareerSite-3169066",
-      "source": "Company · HP",
-      "title": "[Agentic AI] Systems Evaluation Engineer",
-      "company": "HP",
-      "location": "2 Locations",
-      "tags": [],
-      "url": "https://hp.wd5.myworkdayjobs.com/ExternalCareerSite/job/Spring-Texas-United-States-of-America/XMLNAME--Agentic-AI--Systems-Evaluation-Engineer_3169066-1",
-      "description": "",
-      "date": "2026-10-01T03:23:08.218Z"
-    },
-    {
-      "id": "wd-hp-ExternalCareerSite-3157663",
-      "source": "Company · HP",
-      "title": "Americas Regional Marketing Campaign Manager",
-      "company": "HP",
-      "location": "2 Locations",
-      "tags": [],
-      "url": "https://hp.wd5.myworkdayjobs.com/ExternalCareerSite/job/Vancouver-Washington-United-States-of-America/Americas-Regional-Marketing-Campaign-Manager_3157663-2",
-      "description": "",
-      "date": "2026-10-01T03:23:08.218Z"
-    },
-    {
-      "id": "wd-hp-ExternalCareerSite-3168814",
-      "source": "Company · HP",
-      "title": "HR Global Services Advisor 2 with Portuguese Language",
-      "company": "HP",
-      "location": "Sant Cugat del Valles, Barcelona, Spain",
-      "tags": [],
-      "url": "https://hp.wd5.myworkdayjobs.com/ExternalCareerSite/job/Sant-Cugat-del-Valles-Barcelona-Spain/HR-Global-Services-Advisor-2_3168814",
-      "description": "",
-      "date": "2026-10-01T03:23:08.218Z"
-    },
-    {
-      "id": "wd-hp-ExternalCareerSite-3164332",
-      "source": "Company · HP",
-      "title": "3LS Technical Engineer - Video Conferencing",
-      "company": "HP",
-      "location": "Austin, Texas, United States of America",
-      "tags": [],
-      "url": "https://hp.wd5.myworkdayjobs.com/ExternalCareerSite/job/Austin-Texas-United-States-of-America/XMLNAME-3LS-Technical-Engineer---Video-Conferencing_3164332-2",
-      "description": "",
-      "date": "2026-10-01T03:23:08.218Z"
-    },
-    {
-      "id": "wd-hp-ExternalCareerSite-3165505",
-      "source": "Company · HP",
-      "title": "Strategic Initiatives Program Manager Consumer and Gaming",
-      "company": "HP",
-      "location": "Spring, Texas, United States of America",
-      "tags": [],
-      "url": "https://hp.wd5.myworkdayjobs.com/ExternalCareerSite/job/Spring-Texas-United-States-of-America/Strategic-Initiatives-Program-Manager--Consumer---Gaming-_3165505",
-      "description": "",
-      "date": "2026-10-01T03:23:08.218Z"
-    },
-    {
-      "id": "wd-hp-ExternalCareerSite-3168930",
-      "source": "Company · HP",
-      "title": "HP Industry Solutions Business Operations",
-      "company": "HP",
-      "location": "Spring, Texas, United States of America",
-      "tags": [],
-      "url": "https://hp.wd5.myworkdayjobs.com/ExternalCareerSite/job/Spring-Texas-United-States-of-America/HP-Industry-Solutions-Business-Operations_3168930-1",
-      "description": "",
-      "date": "2026-10-01T03:23:08.218Z"
-    },
-    {
-      "id": "wd-hp-ExternalCareerSite-3161131",
-      "source": "Company · HP",
-      "title": "Service Supply Chain Planner",
-      "company": "HP",
-      "location": "Tlaquepaque, Jalisco, Mexico",
-      "tags": [],
-      "url": "https://hp.wd5.myworkdayjobs.com/ExternalCareerSite/job/Tlaquepaque-Jalisco-Mexico/Service-Supply-Chain-Planner_3161131-1",
-      "description": "",
-      "date": "2026-10-01T03:23:08.218Z"
-    },
-    {
-      "id": "wd-hp-ExternalCareerSite-3169408",
-      "source": "Company · HP",
-      "title": "Praktikant/Vertriebsunterstützung",
-      "company": "HP",
-      "location": "Vienna, Vienna, Austria",
-      "tags": [],
-      "url": "https://hp.wd5.myworkdayjobs.com/ExternalCareerSite/job/Vienna-Vienna-Austria/Praktikant-Vertriebsuntersttzung_3169408-1",
-      "description": "",
-      "date": "2026-10-01T03:23:08.218Z"
-    },
-    {
-      "id": "wd-hp-ExternalCareerSite-3164991",
-      "source": "Company · HP",
-      "title": "Romania Payroll Analyst",
-      "company": "HP",
-      "location": "2 Locations",
-      "tags": [],
-      "url": "https://hp.wd5.myworkdayjobs.com/ExternalCareerSite/job/Bucharest-Bucureti-Romania/Payroll-Specialist-for-Romania_3164991-2",
-      "description": "",
-      "date": "2026-10-01T03:23:08.218Z"
-    },
-    {
-      "id": "wd-hp-ExternalCareerSite-3167973",
-      "source": "Company · HP",
-      "title": "Customer Solution Center Rep 3 - Technical",
-      "company": "HP",
-      "location": "Bengaluru, Karnataka, India",
-      "tags": [],
-      "url": "https://hp.wd5.myworkdayjobs.com/ExternalCareerSite/job/Bengaluru-Karnataka-India/Customer-Solution-Center-Rep-3---Technical_3167973-1",
-      "description": "",
-      "date": "2026-10-01T03:23:08.218Z"
-    },
-    {
-      "id": "wd-hp-ExternalCareerSite-3166794",
-      "source": "Company · HP",
-      "title": "Technical Marketing Engineer (TME)",
-      "company": "HP",
-      "location": "Singapore, South West, Singapore",
-      "tags": [],
-      "url": "https://hp.wd5.myworkdayjobs.com/ExternalCareerSite/job/Singapore-South-West-Singapore/Technical-Marketing-Engineer--TME-_3166794-1",
-      "description": "",
-      "date": "2026-10-01T03:23:08.218Z"
-    },
-    {
-      "id": "wd-hp-ExternalCareerSite-3166730",
-      "source": "Company · HP",
-      "title": "Procurement NPI Account Lead",
-      "company": "HP",
-      "location": "Ness Ziona, Center District, Israel",
-      "tags": [],
-      "url": "https://hp.wd5.myworkdayjobs.com/ExternalCareerSite/job/Ness-Ziona-Center-District-Israel/Procurement-NPI-Account-Lead_3166730",
-      "description": "",
-      "date": "2026-10-01T03:23:08.218Z"
-    },
-    {
-      "id": "wd-hp-ExternalCareerSite-3168847",
-      "source": "Company · HP",
-      "title": "Systems Integration Expert",
-      "company": "HP",
-      "location": "Bucharest, Bucureşti, Romania",
-      "tags": [],
-      "url": "https://hp.wd5.myworkdayjobs.com/ExternalCareerSite/job/Bucharest-Bucureti-Romania/Systems-Integration-Expert_3168847-2",
-      "description": "",
-      "date": "2026-10-01T03:23:08.218Z"
-    },
-    {
-      "id": "wd-hp-ExternalCareerSite-3166693",
-      "source": "Company · HP",
-      "title": "Communications & People Engagement Lead",
-      "company": "HP",
-      "location": "Bengaluru, Karnataka, India",
-      "tags": [],
-      "url": "https://hp.wd5.myworkdayjobs.com/ExternalCareerSite/job/Bengaluru-Karnataka-India/Communications---People-Engagement-Lead_3166693-2",
-      "description": "",
-      "date": "2026-09-30T03:23:08.218Z"
-    },
-    {
-      "id": "wd-hp-ExternalCareerSite-3168498",
-      "source": "Company · HP",
-      "title": "MEMS Product Engineer",
-      "company": "HP",
-      "location": "Batu Kawan, Pulau Pinang (Penang), Malaysia",
-      "tags": [],
-      "url": "https://hp.wd5.myworkdayjobs.com/ExternalCareerSite/job/Batu-Kawan-Pulau-Pinang-Penang-Malaysia/MEMS-Product-Engineer_3168498-1",
-      "description": "",
-      "date": "2026-09-30T03:23:08.218Z"
+      "date": "2026-09-30T12:09:17.229Z"
     }
   ]
 }
